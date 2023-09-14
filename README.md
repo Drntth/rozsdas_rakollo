@@ -1,1 +1,13 @@
-# rozsdas_rakollo
+# Rozsdás Rákolló
+> Mini Project
+
+## Csapat tagok:
+
+1. ...
+2. ...
+3. ...
+4. ...
+
+## Senio:
+
+- Birinyi Gergő (FJ6Y69)
