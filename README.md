@@ -3,10 +3,10 @@
 
 ## Csapat tagok:
 
-+ ...
-+ ...
-+ ...
-+ ...
++ Tóth Dorina Ildikó
++ Sipos Valentin Dominik
++ Kovácspál Bálint István
++ Mizere Robin Roland
 
 ## Senio:
 
