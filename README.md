@@ -8,6 +8,6 @@ Egyszerű viccportál
 + Kovácspál Bálint István
 + Mizere Robin Roland
 
-## Senio:
+## Senior:
 
 - Birinyi Gergő (FJ6Y69)
