@@ -1,5 +1,5 @@
 # Rozsdás Rákolló
-Egyszerű viccportál
+Egyszerű viccportál. Ez az első projektünk, nincsenek nagy elvárásaink.
 
 ## Csapat tagok:
 
