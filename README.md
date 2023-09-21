@@ -1,5 +1,5 @@
 # Rozsdás Rákolló
-> Mini Project
+Egyszerű viccportál
 
 ## Csapat tagok:
 
