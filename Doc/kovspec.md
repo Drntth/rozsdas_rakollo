@@ -41,6 +41,8 @@ Az adatbázis szempontjából nincsenek túl nagy elvárások, viszont ami minde
 + Regisztráció, adatok kezelése: A látogatók képesek egy regisztrációs form kitöltése után saját fiókot nyitni, azokban az adataikat kezelni / megváltoztatni.
 + Adminisztrátorok keresése: Probléma és hibajelentés esetén, az adminok eléréseit lehet megtekinteni.
 ## 5. Igényelt üzleti folyamatok modellje
++ Beérkező tartalmak moderálása / elbírálása: A friss posztokat egy moderátor ellenőrzi, hogy azok az oldalunk elvárásainak megfelelőek legyenek.
++ Posztok jutalmazása: A felhasználók pontokkal illethetik a számukra szimpatikus posztokat.
 
 ## 6. Követelménylista
 
