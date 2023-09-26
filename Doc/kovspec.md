@@ -67,3 +67,11 @@ Az adatbázis szempontjából nincsenek túl nagy elvárások, viszont ami minde
 | K13 | Jogosultság | Jogosultsági szintek | - Admin: rendszer üzemeltetése, bejegyzések törlése, felhasználók eltávolítása, szerepkörök kiosztása. - Moderátor: a felhasználók által feltöltött tartalmak moderálása, majd elfogadása vagy elutasítása. - Felhasználó: tartalmak megtekintése, saját bejegyzések létrehozása. - Megtekintő: bejegyzések megtekintése. |
 
 ## 7. Fogalomtár
+
++ **POSZT** __(angol: post)__  A felhasználók által a közösségi felületekre beküldött / feltöltött szöveges vagy audiovizuális tartalom. 
+
++ **MÉM** __(angol: meme)__ Vicces töltettel rendelkező tartalom, amely szabadon felhasználható, módosítható és terjeszthető. Az alkotó tisztában van a többi hasonló tematikával rendelkező tartalommal.
+
++ **RANG** Jogosultsági szintek egymásra épülő engedélyekkel.
+
++ **RESZPONZÍV** __(angol: responsive)__ Olyan megközelítés, amely azt eredményezi, hogy a weboldal láthatósága bármely széles körben elterjedt kijelző méret számára esztétikus megjelenést biztosít.
