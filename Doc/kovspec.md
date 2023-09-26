@@ -12,6 +12,14 @@ Menü pontokba szedve lehet megtekinteni a kategorizált elemeket és a felhaszn
 
 ## 2. A jelenlegi helyzet leírása
 
+A Bikini Fenék Kft. jelenleg egy hírportál és egy eseményekkel foglalkozó cég. 
+A vállalat bővíteni szeretné a repertoárját amely egy viccportál lesz. 
+Jelenleg a weboldalt nem válogatja szét korosztályonként a megjelenő tartalmat, így a fiatalabbaknak megjelennek a felnőtt viccek és fordítva, ennek kiküszöbölése érdekében szeretnénk megteremteni egy olyan oldalt ahol a nagykorú rajongók is élvezhetik a korosztályukhoz illő tartalmakat.
+A mai világ már annyira nyomasztó, hogy nagyon ritkán látunk embereket mosolyogni, ezért egy olyan versenyképes portált szeretnénk létrehozni, ahol megteremthetőek azok a körülmények, amivel a lehetővé tehetjük az emberek napi szórakozását.
+Már több olyan viccportál is jelen van az interneten ami hasonló elven működik, azonban a mi oldalunk abban tér el, hogy egy olyan kategóriát céloztunk meg, ami hiányzik a piacról.
+Egy egyszerű gyermekek számára készült animációs sorozatban megjelent különböző motívumok használatával képzeltük el azt a forrást kialakítani, amivel több különböző réteg igényei is kielégíthetőek. 
+
+
 ## 3. Vágyálomrendszer
 
 ## 4. Jelenlegi üzleti folyamatok modellje
