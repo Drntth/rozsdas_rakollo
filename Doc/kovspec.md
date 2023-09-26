@@ -37,7 +37,9 @@ A későbbiekben ezeket mind megtudja majd változtatni.
 Az adatbázis szempontjából nincsenek túl nagy elvárások, viszont ami mindenféleképp fontos, hogy a pontozás, felhasználók és a bejegyzések külön szeretnénk választani.
 
 ## 4. Jelenlegi üzleti folyamatok modellje
-
++ Igényfelmérés: Felhasználók formon keresztüli igényfelmérése, hogy a jövőben milyen funkciókat használnának a jövőben.
++ Regisztráció, adatok kezelése: A látogatók képesek egy regisztrációs form kitöltése után saját fiókot nyitni, azokban az adataikat kezelni / megváltoztatni.
++ Adminisztrátorok keresése: Probléma és hibajelentés esetén, az adminok eléréseit lehet megtekinteni.
 ## 5. Igényelt üzleti folyamatok modellje
 
 ## 6. Követelménylista
