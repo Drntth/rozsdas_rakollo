@@ -40,9 +40,13 @@ Az adatbázis szempontjából nincsenek túl nagy elvárások, viszont ami minde
 + Igényfelmérés: Felhasználók formon keresztüli igényfelmérése, hogy a jövőben milyen funkciókat használnának a jövőben.
 + Regisztráció, adatok kezelése: A látogatók képesek egy regisztrációs form kitöltése után saját fiókot nyitni, azokban az adataikat kezelni / megváltoztatni.
 + Adminisztrátorok keresése: Probléma és hibajelentés esetén, az adminok eléréseit lehet megtekinteni.
+
 ## 5. Igényelt üzleti folyamatok modellje
 + Beérkező tartalmak moderálása / elbírálása: A friss posztokat egy moderátor ellenőrzi, hogy azok az oldalunk elvárásainak megfelelőek legyenek.
 + Posztok jutalmazása: A felhasználók pontokkal illethetik a számukra szimpatikus posztokat.
++ Szűrés a legkedveltebb posztok között: A posztokat az előbb említett pontrendszer alapján szűrni is lehessen, pl.: A legkedveltebb legelsőnek jelenik meg.
++ Saját profil szerkesztés: A regisztrált felhasználók a saját fiókjukat tudják szerkeszteni, pl.: profilkép változtatás, név szerkesztés.
++ Rang rendszer: A látogatók három rangba lesznek besorolva (Admin, Felhasználó, Látogató), amik más-más hozzáféréssel rendelkeznek az oldal tartalmaihoz.
 
 ## 6. Követelménylista
 
