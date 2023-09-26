@@ -4,7 +4,7 @@ Egyszerű viccportál. Ez az első projektünk, nincsenek nagy elvárásaink.
 ## Csapat tagok:
 
 + Tóth Dorina Ildikó (FYA26Y)
-+ Sipos Valentin Dominik
++ Sipos Valentin Dominik (JPCM1W)
 + Kovácspál Bálint István
 + Mizere Robin Roland
 
