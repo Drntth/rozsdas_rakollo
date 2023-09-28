@@ -27,6 +27,13 @@
 
 ## 6. Használati esetek
 
+- ** ADMIN **: feladata a rendszer felügyelete, ennek tesztelésére minden szerepkörbe be tud lépni, hogy ellenőrizze azok hibamentes üzemelését. Az egész rendszerhez korlátlan hozzáféréssel rendelkezik, így a felhasználók profiljait is szabadon módosíthatják. Ez magában foglalja az adott felhasználó jogosultságait, szerepkörét, felhasználónevét és jelszavát. Emellett új felhasználókat adhatnak a rendszerhez, vagy egy már meglévőt is eltávolíthatnak onnan, ha az valamilyen szabályt megsértett. Képesek rendszerszintű üzeneteket küldeni amit minden felhasználó megkap. Joguk van egy moderátor által engedélyezett bejegyzést törölni vagy módosítani.
+
+- Moderátor: a felhasználók által feltöltött tartalmak moderálása, majd elfogadása vagy elutasítása. 
+- Felhasználó: tartalmak megtekintése, saját bejegyzések létrehozása. 
+- Megtekintő: bejegyzések megtekintése.
+
+
 ## 7. Megfeleltetés, hogyan fedik le a használati eseteket a követelményeket
 
 ## 8. Képernyőtervek
