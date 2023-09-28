@@ -55,7 +55,7 @@ Az adatbázis szempontjából nincsenek túl nagy elvárások, viszont ami minde
 | K1 | Felület | Bejegyzések | A felhasználók az oldal megnyitása után kezdőképernyőként a Bejegyzések nevű oldalra kerülnek, ahol megtekinthetik az aktuális posztokat, bejelentkezés után interaktálhatnak azokkal, bejelentkezés nélkül csak a megtekintésükre van mód. |
 | K2 | Felület | Kategóriák | A felhasználók választani tudnak a megtekinteni kívánt tartalmak között, itt megjelennek formátum és tartalom szerint szétbontva. |
 | K3 | Felület | Profil | A felhasználók a saját profiljuk módosításait eszközölhetik, láthatóvá válnak az adott bejegyzésekre küldött interakciók, pontozások is.|
-| K4 | Felület | Bejegyzés létrehozása | A felhasználó beküldheti saját viccét, mémét vagy gif-jét, amelyet egy magasabb jogosultsággal rendelkező elbírálása után megtekinthet a főoldali bejegyzések között. |
+| K4 | Felület | Bejegyzés létrehozása | A felhasználó beküldhet saját viccet, mém-et vagy gif-et, amelyet egy magasabb jogosultsággal rendelkező elbírálása után megtekinthet a főoldali bejegyzések között. |
 | K5 | Statisztika | Toplista | Egy lista a felhasználók bejegyzéseiről, melynek elején a legtöbb pontot szerzett vicces tartalom jelenik meg. |
 | K6 | Jogosultság | Admin felület | Felület az admin joggal rendelkező felhasználók számára. Tartalmazza az összes felhasználó tevékenységét, a lektorálás lehetőségét, az eltávolítást, mint funkciót és a bizonyos felhasználók fiókjának törlését is. |
 | K7 | Jogosultság | Moderátor felület | A felhasználók által feltöltött tartalmak áttekintése, majd jóváhagyása vagy törlése, majd az adott felhasználó jelentése nagyobb jogosultsággal rendelkezőnek. |
