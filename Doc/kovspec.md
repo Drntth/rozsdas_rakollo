@@ -64,7 +64,7 @@ Az adatbázis szempontjából nincsenek túl nagy elvárások, viszont ami minde
 | K10 | Modifikáció | Elfelejtett felhasználónév / jelszó | Ha a felhasználó nem emlékszik a megadott felhasználónevére vagy jelszavára, akkor itt van lehetősége egy adminhoz fordulni, vagy újat generálni. |
 | K11 | Modifikáció | Jelszó módosítása | A felhasználónak lehetősége van módosítani saját jelszavát, megadva a régi majd az új verziót. |
 | K12 | Modifikáció | Felhasználó módosítása | A felhasználónak lehetősége van saját becenevének, avatárjának módosítására. |
-| K13 | Jogosultság | Jogosultsági szintek | - Admin: rendszer üzemeltetése, bejegyzések törlése, felhasználók eltávolítása, szerepkörök kiosztása. - Moderátor: a felhasználók által feltöltött tartalmak moderálása, majd elfogadása vagy elutasítása. - Felhasználó: tartalmak megtekintése, saját bejegyzések létrehozása. - Megtekintő: bejegyzések megtekintése. |
+| K13 | Jogosultság | Jogosultsági szintek | - Admin: rendszer üzemeltetése, bejegyzések törlése, felhasználók eltávolítása, szerepkörök kiosztása.<br> - Moderátor: a felhasználók által feltöltött tartalmak moderálása, majd elfogadása vagy elutasítása.<br> - Felhasználó: tartalmak megtekintése, saját bejegyzések létrehozása.<br> - Megtekintő: bejegyzések megtekintése. |
 
 ## 7. Fogalomtár
 
