@@ -27,12 +27,21 @@
 
 ## 6. Használati esetek
 
-- **ADMIN**: feladata a rendszer felügyelete, ennek tesztelésére minden szerepkörbe be tud lépni, hogy ellenőrizze azok hibamentes üzemelését. Az egész rendszerhez korlátlan hozzáféréssel rendelkezik, így a felhasználók profiljait is szabadon módosíthatják. Ez magában foglalja az adott felhasználó jogosultságait, szerepkörét, felhasználónevét és jelszavát. Emellett új felhasználókat adhatnak a rendszerhez, vagy egy már meglévőt is eltávolíthatnak onnan, ha az valamilyen szabályt megsértett. Képesek rendszerszintű üzeneteket küldeni amit minden felhasználó megkap. Joguk van egy moderátor által engedélyezett bejegyzést törölni vagy módosítani.
+- **ADMIN**: feladata a rendszer felügyelete, ennek tesztelésére minden szerepkörbe be tud lépni, hogy ellenőrizze azok hibamentes üzemelését. 
+Az egész rendszerhez korlátlan hozzáféréssel rendelkezik, így a felhasználók profiljait is szabadon módosíthatják. 
+Ez magában foglalja az adott felhasználó jogosultságait, szerepkörét, felhasználónevét és jelszavát. 
+Emellett új felhasználókat adhatnak a rendszerhez, vagy egy már meglévőt is eltávolíthatnak onnan, ha az valamilyen szabályt megsértett. 
+Képesek rendszerszintű üzeneteket küldeni amit minden felhasználó megkap. 
+Joguk van egy moderátor által engedélyezett bejegyzést törölni vagy módosítani.
 
-- **MODERÁTOR**: a felhasználók által feltöltött tartalmak moderálása, majd elfogadása vagy elutasítása. 
-- **FELHASZNÁLÓ**: tartalmak megtekintése, saját bejegyzések létrehozása. 
-- **MEGTEKINTŐ**: bejegyzések megtekintése.
+- **MODERÁTOR**: feladata a felhasználók tevékenységeinek felügyelete, a rendszer olyan szintű karbantartása, ami különböző etikai és más szabályoknak való megfeleltetésre szolgál. 
+A rendszerhez nincs korlátlan hozzáférése, magát a rendszert nem módosíthatja, csak és kizárólag a megjelenített tartalmat és a felhasználók tevékenységeit. 
+Jogukban áll adott felhasználóknak üzenetet küldeni. 
+A felhasználók által feltöltött posztokat ők ellenőrzik, majd elfogadás után azok megjelennek a főoldalon, vagy elutasítás esetén törlése kerülnek.
+ 
+- **FELHASZNÁLÓ**: jogában áll az oldalon megjelenő minden tartalom megtekintése, valamint az ezekre adott visszajelző rendszerek használata. Különböző bejegyzéseket posztolhat, más bejegyzésekre pontokat adhat, vagy hozzászólást írhat.
 
+- **MEGTEKINTŐ**: az oldalon megjelenő bejegyzéseket megtekintheti, azonban ezekre nem adhat reakciókat.
 
 ## 7. Megfeleltetés, hogyan fedik le a használati eseteket a követelményeket
 
