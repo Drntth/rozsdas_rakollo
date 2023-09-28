@@ -10,22 +10,6 @@
 ## 5. Követelménylista
 
 | Id | Modul | Név | Leírás |
-| :---: | --- | --- | --- |
-| K1 | ...| ... | ... |
-
-## 6. Használati esetek
-
-## 7. Megfeleltetés, hogyan fedik le a használati eseteket a követelményeket
-
-## 8. Képernyőtervek
-
-![képnév](gitlink ahol a kép van)
-
-## 9. Forgatókönyvek
-
-## 10. Funkció - követelmény megfeleltetése
-
-| Id | Modul | Név | Leírás |
 | :---: | --- | --- | :--- |
 | K1 | Felület | Bejegyzések | A felhasználók az oldal megnyitása után kezdőképernyőként a Bejegyzések nevű oldalra kerülnek, ahol megtekinthetik az aktuális posztokat, bejelentkezés után interaktálhatnak azokkal, bejelentkezés nélkül csak a megtekintésükre van mód. |
 | K2 | Felület | Kategóriák | A felhasználók választani tudnak a megtekinteni kívánt tartalmak között, itt megjelennek formátum és tartalom szerint szétbontva. A kategóriák menüpontba szedve egy menüsoron választhatók ki. |
@@ -40,5 +24,21 @@
 | K11 | Modifikáció | Jelszó módosítása | A felhasználónak lehetősége van módosítani saját jelszavát, megadva a régi majd az új verziót. |
 | K12 | Modifikáció | Felhasználó módosítása | A felhasználónak lehetősége van saját becenevének, avatárjának módosítására, illetve posztjainak kezelésére. |
 | K13 | Jogosultság | Jogosultsági szintek | - Admin: rendszer üzemeltetése, bejegyzések törlése, felhasználók eltávolítása, szerepkörök kiosztása. - Moderátor: a felhasználók által feltöltött tartalmak moderálása, majd elfogadása vagy elutasítása. - Felhasználó: tartalmak megtekintése, saját bejegyzések létrehozása. - Megtekintő: bejegyzések megtekintése. |
+
+## 6. Használati esetek
+
+## 7. Megfeleltetés, hogyan fedik le a használati eseteket a követelményeket
+
+## 8. Képernyőtervek
+
+![képnév](gitlink ahol a kép van)
+
+## 9. Forgatókönyvek
+
+## 10. Funkció - követelmény megfeleltetése
+
+| Id | Követelmény | Funkció |
+| :---: | --- | --- |
+| K4 | ... | ... |
 
 ## 11 Fogalomszótár
