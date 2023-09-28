@@ -14,7 +14,7 @@
 | C1 | Felület | Bejegyzések | A felhasználók az oldal megnyitása után kezdőképernyőként a Bejegyzések nevű oldalra kerülnek, ahol megtekinthetik az aktuális posztokat, bejelentkezés után interaktálhatnak azokkal, bejelentkezés nélkül csak a megtekintésükre van mód. |
 | C2 | Felület | Kategóriák | A felhasználók választani tudnak a megtekinteni kívánt tartalmak között, itt megjelennek formátum és tartalom szerint szétbontva. A kategóriák menüpontba szedve egy menüsoron választhatók ki. |
 | C3 | Felület | Profil | A felhasználók a saját profiljuk módosításait eszközölhetik, láthatóvá válnak az adott bejegyzésekre küldött interakciók, pontozások is. Itt lehetőségük van a saját felhasználói profil módosítására is. |
-| C4 | Felület | Bejegyzés létrehozása | A felhasználó beküldheti saját viccét, mémét vagy gif-jét, amelyet egy magasabb jogosultsággal rendelkező (admin / moderátor) elbírálása után megtekinthet a főoldali bejegyzések között. Elutasítás esetén visszajelzést kap ennek okáról. |
+| C4 | Felület | Bejegyzés létrehozása | A felhasználó beküldhet saját viccet, mém-et vagy gif-et, amelyet egy magasabb jogosultsággal rendelkező (admin / moderátor) elbírálása után megtekinthet a főoldali bejegyzések között. Elutasítás esetén visszajelzést kap ennek okáról. |
 | C5 | Statisztika | Toplista | Egy lista a felhasználók bejegyzéseiről, melynek elején a legtöbb pontot szerzett vicces tartalom jelenik meg. Ezt követően különböző szűrők alapján a többi bejegyzés. |
 | C6 | Jogosultság | Admin felület | Felület az admin joggal rendelkező felhasználók számára. Tartalmazza az összes felhasználó tevékenységét, a lektorálás lehetőségét, az eltávolítást, mint funkciót és a bizonyos felhasználók fiókjának törlését is. |
 | C7 | Jogosultság | Moderátor felület | A felhasználók által feltöltött tartalmak áttekintése, majd jóváhagyása vagy törlése, majd az adott felhasználó jelentése magasabb jogosultsággal rendelkezőnek. |
@@ -27,11 +27,11 @@
 
 ## 6. Használati esetek
 
-- ** ADMIN **: feladata a rendszer felügyelete, ennek tesztelésére minden szerepkörbe be tud lépni, hogy ellenőrizze azok hibamentes üzemelését. Az egész rendszerhez korlátlan hozzáféréssel rendelkezik, így a felhasználók profiljait is szabadon módosíthatják. Ez magában foglalja az adott felhasználó jogosultságait, szerepkörét, felhasználónevét és jelszavát. Emellett új felhasználókat adhatnak a rendszerhez, vagy egy már meglévőt is eltávolíthatnak onnan, ha az valamilyen szabályt megsértett. Képesek rendszerszintű üzeneteket küldeni amit minden felhasználó megkap. Joguk van egy moderátor által engedélyezett bejegyzést törölni vagy módosítani.
+- **ADMIN**: feladata a rendszer felügyelete, ennek tesztelésére minden szerepkörbe be tud lépni, hogy ellenőrizze azok hibamentes üzemelését. Az egész rendszerhez korlátlan hozzáféréssel rendelkezik, így a felhasználók profiljait is szabadon módosíthatják. Ez magában foglalja az adott felhasználó jogosultságait, szerepkörét, felhasználónevét és jelszavát. Emellett új felhasználókat adhatnak a rendszerhez, vagy egy már meglévőt is eltávolíthatnak onnan, ha az valamilyen szabályt megsértett. Képesek rendszerszintű üzeneteket küldeni amit minden felhasználó megkap. Joguk van egy moderátor által engedélyezett bejegyzést törölni vagy módosítani.
 
-- Moderátor: a felhasználók által feltöltött tartalmak moderálása, majd elfogadása vagy elutasítása. 
-- Felhasználó: tartalmak megtekintése, saját bejegyzések létrehozása. 
-- Megtekintő: bejegyzések megtekintése.
+- **MODERÁTOR**: a felhasználók által feltöltött tartalmak moderálása, majd elfogadása vagy elutasítása. 
+- **FELHASZNÁLÓ**: tartalmak megtekintése, saját bejegyzések létrehozása. 
+- **MEGTEKINTŐ**: bejegyzések megtekintése.
 
 
 ## 7. Megfeleltetés, hogyan fedik le a használati eseteket a követelményeket
