@@ -14,6 +14,39 @@ Ez lehetővé teszi számunkra, hogy kielégítsük több különböző réteg i
 
 ## 2. Vágyálomrendszer leírása
 
+Olyan alkalmazást szeretnénk létrehozni, amely minden eszközről tökéletesen elérhető és bármely képernyő mérethez igazodik.
+Ennek megoldására tökéletes lenne egy olyan oldalt megvalósítani amely web alapú és online bárhonnan elérhető.
+A képernyő méretbeli különbségeket reszponzív megoldással tudnánk megoldani.
+Fontos lenne még az is, hogy a létező összes böngésző támogatni tudja a weboldalt, ne csak az alap chrome és safari, hanem még az internet explorer is. 
+A megvalósítást mindenképp php és mysql nyelven szeretnénk kérni, melyben teljesen objektum orientált, és tiszta kódokat kapjunk, hisz a későbbiekben csatlakozó webfejlesztő munkatársak bármikor és könnyedén tudják azokat szerkeszteni. 
+Fontos lenne még ha külön tudnánk választani a webhelyet fejlesztő, és a látogatókat, hisz nem szeretnénk azt se, hogy bárki be tudjon nyúlni fejlesztői szintekre az oldalon, csak az azokra kinevezett emberek. 
+Erre tökéletes lenne egy olyan megoldás, mint például a rangok besorolása. 3 főbb rangra lenne szükségünk, de nem lenne baj ha a későbbiekben ezt tudnánk akár bővíteni: Admin, Szerkesztő (szükséges a jog az admintól), Felhasználó (szükséges a bejelentkezés), illetve a látogató. 
+Az admin az aki kiengedi a vizsgálatra beküldött kódokat, illetve törölni tud bejegyzéseket, emellet bármikor képes legyen jogot adni a felhasználónak, és természetesen adott esetben elvenni azt.
+A szerkesztő lényegében az admin és a felhasználó között levő rang.
+A lehetőség legyen megadva arra, hogy tudjon posztolni, pontozni és olvasni további bejegyzéseket.
+Ezen felül rendelkeznie kell egy olyan listávval is, amely az épp várakozó posztokat tartalmazza, hogy azokat kiengedhesse az oldalra.
+Fontos, hogy ezt csak az admin engedélyével lehessen elérni, tehát csak úgy ne kapja meg ezt a rangot bármely felhasználónk.
+Természetesen neki is felkell az oldalra regisztrálni elsőnek, éppúgy, mint a felhasználónak, amely egyenlő azzal, hogy csak a felhasználói ranggal rendelkezik az elején, a későbbiekben megkapva a szerkesztői jogot, megkaphatja a jogosultságot a listához.
+A felhasználó az aki tud bejegyzést írni, illetve másokét pontozni. 
+A látogató az aki csak olvasni tudja az adott bejegyzéseket, fontos, hogy ne tudjon posztolni és pontozni. 
+A felhasználó a regisztrálásnál meg kell, hogy adja nevét, felhasználónevét, e mail címét és létrehozzon a weboldalhoz egy jelszót. 
+A későbbiekben ezeket mind megtudja majd változtatni. 
+a 18+-os műfajnál úgy gondoljuk, hogyha bejelentkezésre lenne szükség ahhoz, hogy azt ne érje el akárki, csak a 18, életévét betöltött felhasználóink.
+Igaz így sem bombabiztosabb, de macerásabb, és nem csak két kattintás a megkerülése, így úgy gondoljuk ez hatásosabb lenne, mintsem egy "Elmúltam 18 éves, megtekintem" gomb.
+Persze nem probléma, ha így lesz megoldva, hisz ígyis ellenőrizve lenne, de nagyon örülnénk a nehezebb megoldásnak.
+Az adatbázis szempontjából nincsenek túl nagy elvárások, viszont ami mindenféleképp fontos, hogy a pontozás, felhasználók és a bejegyzések külön szeretnénk választani.
+Az oldal kinézetére arra gondoltunk, hogy maradva hűségesek a nevünkhöz két design-ra gondoltunk. 
+Az oldalak színeire a herkentyűburger színeire gondoltunk, mint például:
++ piros, mint a paradicsom
++ zöld, mint a saláta
++ fehér, mint a hagyma
++ citromsárga, mint a szezámmag
++ narancssárga, mint a sajt
++ sötétebb barna, mint a husi
++ világosabb barna, mint a buci
+Ezek ötvözése úgy gondoljuk, hogy a végén remek színpompás oldal lesz, és nem mellesleg a témához illő.
+Természetesen ha valami homályos lenne még, bármikor segítünk és pontosítunk még.
+
 ## 3. Jelenlegi üzleti folyamatok modellje
 
 ## 4. Igényelt üzleti folyamatok modellje
