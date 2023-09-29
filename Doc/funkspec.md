@@ -44,6 +44,7 @@ Az oldalak színeire a herkentyűburger színeire gondoltunk, mint például:
 + narancssárga, mint a sajt
 + sötétebb barna, mint a husi
 + világosabb barna, mint a buci
+
 Ezek ötvözése úgy gondoljuk, hogy a végén remek színpompás oldal lesz, és nem mellesleg a témához illő.
 Természetesen ha valami homályos lenne még, bármikor segítünk és pontosítunk még.
 
@@ -91,7 +92,18 @@ A felhasználók által feltöltött posztokat ők ellenőrzik, majd elfogadás 
 
 ## 8. Képernyőtervek
 
-![képnév](gitlink ahol a kép van)
+| Kép | Leírás |
+| :-----------: | :-----------: |
+| ![fooldal.png](Images/fooldal.png) | A főoldal tervezete. Ez az a rész amelyet bárki elérhet, nem szükséges, hogy rendelkezzünk felhasználói profillal. |
+| ![regisztracio.png](Images/regisztracio.png) | A regisztrációs oldal tervezete. Ez az a rész, ahol az oldalra látogató olvasók pár adat megadásával máris az oldal felhasználói közé tartozhat. |
+| ![bejelentkezes.png](Images/bejelentkezes.png) | A bejelentkező oldal tervezete. Ez az a rész, ahol a már előzetesen regisztrált felhasználók, pár adat megadásával bármikor beléphetnek az oldalra. |
+| ![fooldal_felhasznalo.png](Images/fooldal_felhasznalo.png) | A bejelentkezett felhasználók főoldal tervezete. |
+| ![ujbejegyzes.png](Images/ujbejegyzes.png) | Új bejegyzés létrehozása oldalának tervezete. Itt tudnak a regisztrált felhasználók beküldeni bejegyzéseket, hogy azokat leellenőrizve az oldalon legyenek. |
+| ![felhasznaloiprofil.png](Images/felhasznaloiprofil.png) | Felhasználói adatok módosítása oldalának tervezete. Itt tudják a regisztrált felhasználók módosítani az adataikat. |
+| ![fooldal_szerkeszto.png](Images/fooldal_szerkeszto.png) | A bejelentkezett szerkesztő joggal rendelkező felhasználók főoldal tervezete. |
+| ![engedelyezes.png](Images/engedelyezes.png) | A szerkesztő joggal rendelkező felhasználók engedélyező oldalának tervezete. Itt tudják a 'szerkesztők' engedélyezni posztok kimenetelét az oldalra. |
+| ![fooldal_admin.png](Images/fooldal_admin.png) | A bejelentkezett admin joggal rendelkező felhasználók főoldal tervezete. |
+| ![jogosultsag.png](Images/jogosultsag.png) | Az admin joggal rendelkező felhasználók jogosultság oldalának tervezete. Itt tudják az adminok kinevezni egyes felhasználókat szerkesztővé, és itt is tudják a szerkesztői jogot elvenni a felhasználóktól. |
 
 ## 9. Forgatókönyvek
 
