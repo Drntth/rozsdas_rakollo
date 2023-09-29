@@ -1,6 +1,17 @@
 # Funkcionális specifikáció
 ## 1. Jelenlegi helyzet leírása
 
+A Bikini Fenék Kft. jelenleg egy hírportál és egy eseményekkel foglalkozó cég, de terveink szerint bővíteni szeretnénk tevékenységünket egy viccportállal. 
+Jelenleg az oldalunk nem különbözteti meg a korosztályokat, így a fiatalabbaknak is megjelennek a felnőtteknek szóló viccek, és fordítva. 
+Ennek elkerülése érdekében célunk egy olyan weboldal létrehozása, ahol a nagykorú rajongók a korosztályuknak megfelelő tartalmakat élvezhetik.
+Fontos megjegyezni, hogy tisztában vagyunk olyan oldalakkal is, amelyek felnőttek számára készültek, mégis könnyedén hozzáférhetnek hozzájuk a kiskorúak, néhány kattintással, ellenőrzés nélkül. 
+Ezért elengedhetetlen, hogy olyan ellenőrzéseket vezessünk be, amelyek legalább megnehezítik a kiskorúaknak az ilyen tartalmakhoz való hozzáférést, és így segítenek megelőzni a kiskorúak védelmét sértő helyzeteket.
+A mai világban olyan sok a stressz és a nyomás, hogy ritkán látunk mosolygó embereket. 
+Ennek fényében egy versenyképes viccportált szeretnénk létrehozni, amely lehetővé teszi az emberek napi szórakozását. 
+Bár már létezik több hasonló elven működő viccportál az interneten, az mi oldalunk különlegessége, hogy olyan kategóriát céloz meg, amely eddig hiányzott a piacon.
+A projekt forrásait egy egyszerű, gyermekeknek szóló animációs sorozatból merítjük, különböző motívumokat felhasználva. 
+Ez lehetővé teszi számunkra, hogy kielégítsük több különböző réteg igényeit.
+
 ## 2. Vágyálomrendszer leírása
 
 ## 3. Jelenlegi üzleti folyamatok modellje
