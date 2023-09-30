@@ -163,6 +163,11 @@ Ezután szabadon tölthetnek fel tartalmakat, ám ezeket kizárólag ellenőrzé
 
 ## 9. Forgatókönyvek
 
+A weblap megnyitásakor a **Kezdőlap** oldal jelenik meg minden felhasználó számára.
+A kezdőlap tartalmazza a navigációs sávot, ahol bejelentkezni illetve regisztálni tudunk, illetve az oldal címét.
+Baloldalon találhatjuk a műfajokat, ezekből választva egyet az oldal megjeleníti az adott műfajhoz tartozó tartalmakat.
+Alapértelmezetten egy toplistás rangsorolást láthatunk, a legjobban értékelt tartalomtól a legkevésbé értékeltig.
+
 ## 10. Funkció - követelmény megfeleltetése
 
 | Id | Követelmény | Funkció |
