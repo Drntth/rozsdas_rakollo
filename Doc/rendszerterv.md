@@ -41,9 +41,23 @@ Ezen felül viszont a rendszer nem célja az, hogy az oldal által is kiválaszt
 |Program                  |Tesztelés                               |         4 |             2 |                      2 |       
 ## 3. Üzleti folyamatok modellje
 
+![uzleti_folyamatok_modellje.png](https://github.com/Drntth/rozsdas_rakollo/blob/main/Images/uzleti_folyamatok_modellje.png)
+
 ### 3.1 Üzleti szereplők
 
++ Admin
++ Szerkesztő
++ Felhasználó
++ Látogató / Olvasó
+
 ### 3.2 Üzleti folyamatok
+
+| Üzleti Szereplő | Üzleti szereplő neve | Feladatkör |
+| :-------------: | :------------------: | :--------: |
+| ![latogato_uzleti.png](https://github.com/Drntth/rozsdas_rakollo/blob/main/Images/latogato_uzleti.png) | Látogató | Csak a posztok olvasására képes. |
+| ![felhasznalo_uzleti.png](https://github.com/Drntth/rozsdas_rakollo/blob/main/Images/felhasznalo_uzleti.png) | Felhasználó | Képes: regisztrálni, bejelentkezni, posztot olvasni, létrehozni, pontozni, felhasználói profilt módosítani. |
+| ![szerkeszto_uzleti.png](https://github.com/Drntth/rozsdas_rakollo/blob/main/Images/szerkeszto_uzleti.png) | Szerkesztő | Képes: regisztrálni, bejelentkezni, posztot olvasni, létrehozni, pontozni, felhasználói profilt módosítani és engedélykérésre várakozó posztokat engedélyezni |
+| ![admin_uzleti.png](https://github.com/Drntth/rozsdas_rakollo/blob/main/Images/admin_uzleti.png) | Admin | Képes: bejelentkezni, posztot olvasni, létrehozni, pontozni, felhasználói profilt módosítani, engedélykérésre várakozó posztokat engedélyezni és jogosultságokat kiosztani, vagy azokat elvenni |
 
 ## 4. Követelmények
 
