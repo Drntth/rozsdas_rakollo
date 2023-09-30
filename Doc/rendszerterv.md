@@ -19,14 +19,45 @@ Ezen felül viszont a rendszer nem célja az, hogy az oldal által is kiválaszt
 ## 2. Projektterv
 
 ### 2.1 Projektszerepkörök, felelőségek:
-   * Scrum masters:
-   * Product owner: 
-   * Üzleti szereplő:
+* Scrum masters:
+   + Tóth Dorina Ildikó
+   + Mizere Robin Roland
+   + Sipos Valentin Dominik
+   + Kovácspál Bálint István
+   Feladatuk: Heti meetingek megszervezése.
+   Akadályok feltárása.
+   Következő elvégzendő feladatok átbeszélése.
+   Szerepkiosztás.
+* Product owner: 
+   + Tóth Dorina Ildikó
+   + Mizere Robin Roland
+   + Sipos Valentin Dominik
+   + Kovácspál Bálint István
+* Üzleti szereplő:
+  + Megrendelő: Dr. Tajti Tibor
      
 ### 2.2 Projektmunkások és felelőségek:
-   * Frontend:
-   * Backend:
-   * Tesztelés:
+* Frontend:
+   + Tóth Dorina Ildikó
+   + Mizere Robin Roland
+   + Sipos Valentin Dominik
+   + Kovácspál Bálint István
+   Feladatuk: A felhasználók által elérhető felületek létrehozása. 
+   A backend által biztosított funkciók igénybevétele.
+   Egységes design megalkotása.
+* Backend:
+  + Tóth Dorina Ildikó
+  + Mizere Robin Roland
+  + Sipos Valentin Dominik
+  + Kovácspál Bálint István
+  Feladatuk: A frontend kiszolgálása adatokkal. 
+  Adatbázisok létrehozása
+* Tesztelés:
+  + Tóth Dorina Ildikó
+  + Mizere Robin Roland
+  + Sipos Valentin Dominik
+  + Kovácspál Bálint István
+  Feladatuk: Hibák feltárása az üzembe helyezés előtt.
      
 ### 2.3 Ütemterv:
 
@@ -190,11 +221,12 @@ asztali számítógép...
 ## 7. Architekturális terv
 
 ### Webszerver
-
+Az Apache http szerveren futó alkalmazás szolgálja ki webes felületen keresztül a rendszer felhasználóit.
 ### Adatbázis rendszer
-
+ Az adatok tárolása a MySql adatbázis szerveren történik.
+ Az adatbázisban minden mentett változás tárolódik. 
 ### A program elérése, kezelése
-
+A felhasználó felület böngészőben megjelenő html oldalak formájában érhető el, ezen keresztül tudják a felhasználók a rendszert használni. 
 ## 8. Adatbázis terv
 
 ![adatbazisterv.png](https://github.com/Drntth/rozsdas_rakollo/blob/main/Images/adatbazisterv.png)
