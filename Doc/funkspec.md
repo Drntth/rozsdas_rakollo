@@ -51,6 +51,11 @@ Természetesen ha valami homályos lenne még, bármikor segítünk és pontosí
 ## 3. Jelenlegi üzleti folyamatok modellje
 
 A mai világban a internetes szórakozást nyújtó viccoldalak elavultak.
+Mára sajnos már nem tudnak lépést tartani a modern humorral és a társadalmi változásokkal.
+Ezek a portálok gyakran tele vannak olyan poénokkal, amelyeket már évekkel ezelőtt terjesztettek az interneten, és amelyek elveszítették frissességüket.
+A humorérzék és a társadalmi normák is változnak az idővel.
+Az elavuló vicc portálok gyakran tartalmaznak olyan vicceket, amelyek sértőek, rasszisták vagy szexisták, és nem veszik figyelembe az érzékenység és a tolerancia fontosságát.
+Míg az elavuló vicc portálok lehetnek nosztalgikusak és néhányan még mindig élvezhetik azokat, akik emlékeznek a régi viccekre, fontos figyelembe venni a friss humor és a társadalmi fejlődés iránti igényeket, és támogatni azokat a webes platformokat, amelyek ezeknek a követelményeknek megfelelnek.
 Ha valaki ténylegesen vicces tartalmat szeretne találni, akkor intenzív internetes szörfözésbe kell kezdenie.
 A felhasználók interneten való böngészése rengeteg időt igénybe vehet.
 Azon az időn tovább ront, ha a saját ízlésük szerinti viccet szeretnének találni.
@@ -60,10 +65,14 @@ A legtöbb viccoltalon nincsenek korcsoport szerint szétbontva a tartakmak, íg
 ## 4. Igényelt üzleti folyamatok modellje
 Ez az oldal a böngészést szeretné megkönnyíteni, hogy minden tartalom pár kattintással elérhető legyen.
 Az oldal folyamatosan karbantartott, frissített és fejlesztett.
+Az elavuló vicc portálok frissességét növelhetjük azzal, hogy rendszeresen friss humoros tartalmakat közlünk, és aktuális eseményekre, trendekre reagálunk.
+A közösség is részt vehet az új viccek létrehozásában, így a portál mindig naprakész marad.
 Az oldalon található tartalmak kategorizálva vannak, hogy mindenki a saját szájíze szerint tudjon válogatni.
 A szűrő segítségével a viccek időrendbe, illetve pontozási rendszer szerint rendezhetőek.
 A korhoz kötött tartalmak egyfajta ellenörzés alatt vannak, hogy csak a 18. életévét betöltött felhasználó tudja azokat megtekinteni.
-Az odlalon található viccek feltöltést követően verifikáción mennek keresztül, hogy biztosjtva legyen az értelmes tartalom.
+Az odlalon található viccek feltöltést követően verifikáción mennek keresztül, hogy biztosítva legyen az értelmes tartalom.
+A tartalmakat alapos moderálással ellenőrizhetjük, hogy elkerüljük a sértő vagy diszkriminatív viccek megjelenését.
+A portál lehetőséget adhat felhasználóinak a problémás tartalmak jelzésére is.
 A verifikációt a szerkesztők és az adminok végzik.
 Van lehetőség szerkesztői jelentkezésre, aminek válogatását az Adminok végzik.
 Van lehetőség pontozni egy adott bejegyzést, hogy a szűrővel lehetővé tehető legyen a 'legnépszerűbb' tartalom.
