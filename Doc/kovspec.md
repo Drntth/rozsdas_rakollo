@@ -37,7 +37,7 @@ A későbbiekben ezeket mind megtudja majd változtatni.
 Az adatbázis szempontjából nincsenek túl nagy elvárások, viszont ami mindenféleképp fontos, hogy a pontozás, felhasználók és a bejegyzések külön szeretnénk választani.
 
 ## 4. Jelenlegi üzleti folyamatok modellje
-+ Igényfelmérés: Felhasználók formon keresztüli igényfelmérése, hogy a jövőben milyen funkciókat használnának a jövőben.
++ Igényfelmérés: Felhasználók formon keresztüli igényfelmérése, hogy a jövőben milyen funkciókat használnának.
 + Regisztráció, adatok kezelése: A látogatók képesek egy regisztrációs form kitöltése után saját fiókot nyitni, azokban az adataikat kezelni / megváltoztatni.
 + Adminisztrátorok keresése: Probléma és hibajelentés esetén, az adminok eléréseit lehet megtekinteni.
 
@@ -47,6 +47,8 @@ Az adatbázis szempontjából nincsenek túl nagy elvárások, viszont ami minde
 + Szűrés a legkedveltebb posztok között: A posztokat az előbb említett pontrendszer alapján szűrni is lehessen, pl.: A legkedveltebb legelsőnek jelenik meg.
 + Saját profil szerkesztés: A regisztrált felhasználók a saját fiókjukat tudják szerkeszteni, pl.: profilkép változtatás, név szerkesztés.
 + Rang rendszer: A látogatók három rangba lesznek besorolva (Admin, Felhasználó, Látogató), amik más-más hozzáféréssel rendelkeznek az oldal tartalmaihoz.
+
+![igenyelt_uzleti_foly.png](https://github.com/Drntth/rozsdas_rakollo/blob/main/Images/igenyelt_uzleti_foly.png) 
 
 ## 6. Követelménylista
 
