@@ -95,6 +95,50 @@ Ezen felül viszont a rendszer nem célja az, hogy az oldal által is kiválaszt
 
 ## 8. Adatbázis terv
 
+![adatbazisterv.png](https://github.com/Drntth/rozsdas_rakollo/blob/main/Images/adatbazisterv.png)
+
+| Tábla neve | Leírás |
+| :-----------: | :-----------: |
+| felhasznalok | A felhasználók táblában tároljuk a regisztrációkor megadott adatokat. |
+
+![felhasznalok_tabla.png](https://github.com/Drntth/rozsdas_rakollo/blob/main/Images/felhasznalok_tabla.png)
+
+A felhasználók tábla felépítése:
+
+| Mező neve | Értéke | Egyébb | Extra |
+| :-----: | :-----: | :-----: | :-----: |
+| felhasznalok_id | INT | Not null, Auto incremental | Elsődleges kulcs |
+| username | VARCHAR(45) | Not null | Unique index |
+| password | VARCHAR(45) | Not null |  |
+| szuletesi_ido | DATE | Not null | Formátum: ÉÉÉÉ-HH-NN |
+| jogosultsag | VARCHAR(45) | Not null | Automatikusan regisztráláskor a "Felhasználó" kerül bele |
+
+![posztok_tabla.png](https://github.com/Drntth/rozsdas_rakollo/blob/main/Images/posztok_tabla.png)
+
+A posztok tábla felépítése:
+
+| Mező neve | Értéke | Egyébb | Extra |
+| :-----: | :-----: | :-----: | :-----: |
+| posztok_id | INT | Not null, Auto incremental | Elsődleges kulcs |
+| cim | VARCHAR(45) | Not null |  |
+| bejegyzes | VARCHAR(300) | Not null |  |
+| engedelyezve | VARCHAR(4) | Not null | Automatikusan a "Nem" kerül bele, a későbbiekben lehet ezt "Igen"-re állítani |
+
+
+A kettőt összekötő kapcsolati tábla, a pontozás tábla.
+Ez a tábla több- a több kapcsolattal jött létre.
+Azért volt erre szükség, hisz egy felhasználónak tudnia kell több posztot is pontoznia, és egy posztnak tudnia kell értékelődnie több felhasználó által.
+
+![pontozas_tabla.png](https://github.com/Drntth/rozsdas_rakollo/blob/main/Images/pontozas_tabla.png)
+
+A pontozás tábla felépítése:
+
+| Mező neve | Értéke | Egyébb | Extra |
+| :-----: | :-----: | :-----: | :-----: |
+| felhasznalok_felhasznalok_id | INT | Not null | Elsődleges kulcsot önnállóan nem alkot, csak a posztok_posztok_id kulccsal, külsőleg kapja a felhasznalok tábla felhasznalok_id mező értékét. |
+| posztokok_posztok_id | INT | Not null | Elsődleges kulcsot önnállóan nem alkot, csak a felhasznalok_felhasznalok_id kulccsal, külsőleg kapja a posztok tábla posztok_id mező értékét. |
+| kapott_pontszam | INT | Not null |  |
+
 ## 9. Implementációs terv
 
 ## 10. Tesztterv
