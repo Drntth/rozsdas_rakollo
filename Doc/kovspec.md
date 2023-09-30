@@ -46,7 +46,7 @@ Az adatbázis szempontjából nincsenek túl nagy elvárások, viszont ami minde
 + Posztok jutalmazása: A felhasználók pontokkal illethetik a számukra szimpatikus posztokat.
 + Szűrés a legkedveltebb posztok között: A posztokat az előbb említett pontrendszer alapján szűrni is lehessen, pl.: A legkedveltebb legelsőnek jelenik meg.
 + Saját profil szerkesztés: A regisztrált felhasználók a saját fiókjukat tudják szerkeszteni, pl.: profilkép változtatás, név szerkesztés.
-+ Rang rendszer: A látogatók három rangba lesznek besorolva (Admin, Felhasználó, Látogató), amik más-más hozzáféréssel rendelkeznek az oldal tartalmaihoz.
++ Rang rendszer: A látogatók négy rangba lesznek besorolva (Admin, Felhasználó, Látogató és szerkesztő), amik más-más hozzáféréssel rendelkeznek az oldal tartalmaihoz.
 
 ![igenyelt_uzleti_foly.png](https://github.com/Drntth/rozsdas_rakollo/blob/main/Images/igenyelt_uzleti_foly.png) 
 

@@ -50,6 +50,13 @@ Természetesen ha valami homályos lenne még, bármikor segítünk és pontosí
 
 ## 3. Jelenlegi üzleti folyamatok modellje
 
+A mai világban a internetes szórakozást nyújtó viccoldalak elavultak.
+Ha valaki ténylegesen vicces tartalmat szeretne találni, akkor intenzív internetes szörfözésbe kell kezdenie.
+A felhasználók interneten való böngészése rengeteg időt igénybe vehet.
+Azon az időn tovább ront, ha a saját ízlésük szerinti viccet szeretnének találni.
+A legtöbb viccoltalon nincsenek korcsoport szerint szétbontva a tartakmak, így fiatalabb korcsoport számára könnyen elérhető a felnőtt tartalom.
+
+
 ## 4. Igényelt üzleti folyamatok modellje
 
 ## 5. Követelménylista
