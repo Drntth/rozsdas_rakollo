@@ -122,6 +122,12 @@ Ezt az oldalt bárki bármilyen jogosultság nélkül elérheti és böngészhet
 Válogathat az egyes kategórák között, ahol az adott kategóriának megfelelő tematikájú tartalom fogja fogadni.
 A kezdőoldalon elérhető továbbá a bejelentkezés és regisztráció menüpont is amelyről később részletesebben is olvashatunk.
 
++ **K3** : A már bejelentkezett felhasználó hozzáférést kap a regisztrált felhasználóknak szánt funkciókhoz.
+Ilyen többek között a profil adatainak és tulajdonságainak módosítása, valamint az interakció a tartalmakkal, azaz pontozhatják azokat.
+
++ **K4** : A regisztrált felhasználók számára létrehozunk egy egyszerűen használható felületet, ahol fel tudják tölteni a saját tartalmaikat.
+Ehhez létrehozunk egy admin jogosultsággal elérhető oldalt is, ahol kezelni tudjuk az érkező anyagokat.
+
 ## 8. Képernyőtervek
 
 | Kép | Leírás |
