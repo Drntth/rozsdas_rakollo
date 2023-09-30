@@ -174,7 +174,7 @@ Alapértelmezetten egy toplistás rangsorolást láthatunk, a legjobban értéke
 Amennyiben **Felhasználói** jogkörrel rendelkező személy lép be, az alapértelmezetthez képest bővebb információhoz jutunk a tartalmakat tekintve, megjelenik az általunk adott pontszám, és az összpontszám, valamint egy gomb, ahol értékelhetjük az adott bejegyzést.
 Látható egy gomb, amelyen egy "**+**" ikon látható, erre a gombra kattintva megjelenik a _Bejegyzés létrehozása_ menüpont.
 Itt tudnak a regisztrált felhasználók új bejegyzést létrehozni, ezután ezokat ellenőzés után az oldalon újra láthatják.
-A belépést követően a **regisztráció** gomb **profil szerkesztése** gombbá változik.
+A belépést követően a ***regisztráció*** gomb ***profil szerkesztése*** gombbá változik.
 Itt tudják a felhasználók módosítani a saját profiljuk megjelenését, illetve jelszavukat.
 
 Amennyiben **moderátori** jogosultsággal jelentkezünk be, az alábbi jogkörök jogain felül megjelenik egy engedélyezés gomb a navigációs sávon.
@@ -189,6 +189,19 @@ A most következő részben az __megtekintő__ ként (nem bejelentkezett felhasz
 + Alapértelmezetten egy felhasználók által rangsorolt toplistát láthat, a legjobban értékelt tartalomtól a legkevésbé értékeltig.
 + Kiválaszthat egy kategóriát, ami érdekli. Például az *Apa viccek* kategóriát. Megnézhetii a legjobb bejegyzéseket ebben a kategóriában.
 + Láthatja az összes értékelés átlagát a bejegyzéseknél
+
+Az alábbiakban a **felhasználó** jogkörrel rendelkező felhasználók által végezhető műveleteket fogom ismertetni:
++ Minden korábban felsorolt műveletre lehetősége van
++ __Kijelentkezés__ : kilépés a felhasználói fiókból, megtekintő jogkörrel böngészés az oldalon a kezdőlap oldalra visszakerülve.
++ __Profil módosítása__ : A felhasználó saját igényei szerint módosíthatja profilképét, megjelenített nevét, és bejelentkezési jelszavát, ám ehhez szükséges megadnia az aktuális jelszavát is.
++ __Bejegyzés létrehozása__ : A felhasználó elkészítheti az új bejegyzését.
+A gombra kattintva elénk kerül egy űrlap, ahol meg kell adni a bejegyzés címét és a leírását.
+Ezek mellett képet is csatolhat a bejegyzéséhez.
+Az ***elküldés*** gomb megnyomása után a bejegyzés megjelenik a nagyobb jogkörrel rendelkező felhasználók engedélyezés menüpontjában, ahol dönthetnek arról, hogy a bejegyzés megjeljen a weboldalon vagy elutasítják azt.
++ A felhasználó értékelheti a bejegyzéseket egy 1-10-es skálán. Ezeket a pontokat ***csiguszpont*** -oknak nevezzük.
++ A felhasználó megtekintheti egy adott bejegyzésnél a saját maga által adott pontszámot és a mások által adott pontok átlagát is.
+Természetesen ezt a saját bejegyzésénél is láthatja.
++ Bejelenthet más felhasználók által létrehozott bejegyzéseket felülvizsgálatra.
 
 ## 10. Funkció - követelmény megfeleltetése
 
