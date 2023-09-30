@@ -55,7 +55,8 @@ Mára sajnos már nem tudnak lépést tartani a modern humorral és a társadalm
 Ezek a portálok gyakran tele vannak olyan poénokkal, amelyeket már évekkel ezelőtt terjesztettek az interneten, és amelyek elveszítették frissességüket.
 A humorérzék és a társadalmi normák is változnak az idővel.
 Az elavuló vicc portálok gyakran tartalmaznak olyan vicceket, amelyek sértőek, rasszisták vagy szexisták, és nem veszik figyelembe az érzékenység és a tolerancia fontosságát.
-Míg az elavuló vicc portálok lehetnek nosztalgikusak és néhányan még mindig élvezhetik azokat, akik emlékeznek a régi viccekre, fontos figyelembe venni a friss humor és a társadalmi fejlődés iránti igényeket, és támogatni azokat a webes platformokat, amelyek ezeknek a követelményeknek megfelelnek.
+Míg az elavuló vicc portálok lehetnek nosztalgikusak és néhányan még mindig élvezhetik azokat, akik emlékeznek a régi viccekre.
+Fontos figyelembe venni a friss humor és a társadalmi fejlődés iránti igényeket, és támogatni azokat a webes platformokat, amelyek ezeknek a követelményeknek megfelelnek.
 Ha valaki ténylegesen vicces tartalmat szeretne találni, akkor intenzív internetes szörfözésbe kell kezdenie.
 A felhasználók interneten való böngészése rengeteg időt igénybe vehet.
 Azon az időn tovább ront, ha a saját ízlésük szerinti viccet szeretnének találni.
@@ -137,6 +138,17 @@ A felhasználók által feltöltött posztokat ők ellenőrzik, majd elfogadás 
 
 | Id | Követelmény | Funkció |
 | :---: | --- | --- |
-| F0 | ... | ... |
+| K1 | Bejelentkezés nélküli posztokkal való interakció elkerülése | A főoldal betöltésénél a pontozási funkció átmenetileg le lesz tiltva, amit csak bejelentkezés után tudnak a felhasználók használni. |
+| K2 | Megtekinteni kívánt tartalmak kategóriákra való bontása. | A navigációs soron egy 'kategóriák' nevű legördülő listán keresztül választhatnak a felhasználók, hogy milyen típusú tartalmat szeretnének látni az adott pillanatban.|
+| K3 | Profil szerkesztés | A 'Profil' gombra kattintba kattintva megjelennek olyan adatok, amelyeket a regisztráció során adtunk meg. Ezen adatok módosíthatóak. Az oldalon megjelennek a kedvelt tartalmak. |
+| K4 | Saját tartalom posztolása | A saját tartalom posztolására a főoldalon lesz lehetőség. A poszt állhat feltöltendő adatból (GIF vagy képfile), vagy szöveges adatból. A közzététel után a poszt egy admin vagy szerkesztő általi jóváhagyás után lesz látható a főoldalon. A jóváhagyás, a moderátoroknak lesz elérhető.|
+| K5 | Toplista | A posztok szűrés alapján jelennek meg a főoldalon, amelyet személyre szabva lehet állítani. |
+| K6 | Admin felület | Az admin jogosultsággal rendelkező felhasználóknak egy külön gomb jelenik meg a navigációs tálcán, amire rákattintva megjelennek a felhasználók tevékenységei. Adott felhasználók fiókjának felfüggesztésére is van lehetőség. |
+| K7 | Moderátori felület | Csakúgy mint az adminoknál, a moderátoroknak is megjelenik egy külön felület a navigációs tálcán, amire kattintva megjelennek a függőben lévő posztok. A posztok jóváhagyására vagy törlésére van lehetőség külön gombokon keresztül, illetve van lehetőség jelenteni egy Adminnak az adott felhasználót.|
+| K8 , K9 | Bejelentkezési, regisztrációs felület | Az oldalra fellépve, a bejelentkezés gombra kattintva megjelenik a bejelentkezés felület. A felületen van lehetőség az elfelejtett jelszó vagy felhasználónév jelentésére egy moderátornak. Ha még nem hoztak létre fiókot a felhasználók, akkor van lehetőség regisztrációra is. A bejelentkezés vagy regisztráció után a felhasználók szabadon tudnak reagálni a tartalmakra, vagy feltölteni sajátot is. |
+| K10 | Elfelejtett felhasználónév, Jelszó | A bejelentkezés felületén a felhazsnálónak lehetősége van új jelszót generáltatni, arra az esetre ha elfelejtené.|
+| K11 | Jelszó módosítás | A felhasználó a belépést követően a profiljánál képes megváltoztatni a jelszavát, a jelenlegi jelszó és az új jelszaváva segítségével.|
+| K12 | A becenév módosítása | A posztoláshoz és reagáláshoz a felhasználónak szüksége van egy becenévre, amit regisztrációkor meg kell adni, és a profil felületen bármikor meg tud változtatni. A becenév mind két esetben ellenőrizve van, arra az esetre, ha foglalt lenne. |
+| K13 | Jogosultsági szintek | A felhasználói szint regisztráció után autómatikusan hozzáadódik a felhasználó fiókjához. Minden afeletti jogkört az admin jogkörrel rendelkezők tudnak kiosztani.|
 
 ## 11 Fogalomszótár
