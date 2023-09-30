@@ -58,6 +58,16 @@ A legtöbb viccoltalon nincsenek korcsoport szerint szétbontva a tartakmak, íg
 
 
 ## 4. Igényelt üzleti folyamatok modellje
+Ez az oldal a böngészést szeretné megkönnyíteni, hogy minden tartalom pár kattintással elérhető legyen.
+Az oldal folyamatosan karbantartott, frissített és fejlesztett.
+Az oldalon található tartalmak kategorizálva vannak, hogy mindenki a saját szájíze szerint tudjon válogatni.
+A szűrő segítségével a viccek időrendbe, illetve pontozási rendszer szerint rendezhetőek.
+A korhoz kötött tartalmak egyfajta ellenörzés alatt vannak, hogy csak a 18. életévét betöltött felhasználó tudja azokat megtekinteni.
+Az odlalon található viccek feltöltést követően verifikáción mennek keresztül, hogy biztosjtva legyen az értelmes tartalom.
+A verifikációt a szerkesztők és az adminok végzik.
+Van lehetőség szerkesztői jelentkezésre, aminek válogatását az Adminok végzik.
+Van lehetőség pontozni egy adott bejegyzést, hogy a szűrővel lehetővé tehető legyen a 'legnépszerűbb' tartalom.
+
 
 ## 5. Követelménylista
 
