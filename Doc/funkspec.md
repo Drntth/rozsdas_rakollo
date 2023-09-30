@@ -140,6 +140,10 @@ Módosítani illetve törölni tudnak tartalmakat, vagy profilokat.
 A felhasználó bejelentkezhet a saját profiljába vagy hogy ezt később megtehesse létrehozhat egyet magának egy egyszerűen kezelhető felületen.
 Ezután szabadon tölthetnek fel tartalmakat, ám ezeket kizárólag ellenőrzés után tudják megtekinteni a foldalon vagy a kategóriákban.
 
++ **K10** : Egy olyan panelt is létre hozunk, amelyen a felhasználó jelezni tudja, hogy elfelejtette jelszavát, és újat kíván igényelni. Ezt könnyedén megteheti, majd újra be jelentkezhet az oldalra.
+
++ **K11** : Bejelenkezett felhasználók számára elérhető funkció a meglévő jelszavuk megváltoztatása. Biztonsági okokból szükség van az aktuális jelszó megadására is.
+
 ## 8. Képernyőtervek
 
 | Kép | Leírás |
