@@ -234,3 +234,19 @@ Végül az **admin** jogkörrel rendelkező felhasználók lehetőségeit mutato
 | K13 | Jogosultsági szintek | A felhasználói szint regisztráció után autómatikusan hozzáadódik a felhasználó fiókjához. Minden afeletti jogkört az admin jogkörrel rendelkezők tudnak kiosztani.|
 
 ## 11 Fogalomszótár
+
++ **ADMIN** _(adminisztrátor)_ Legmagasabb jogkör az oldalon. 
+
++ **CSIGUSZPONT** A weboldalon használt értékelési pont megnevezése.
+
++ **GIF** _(angol:_ ***graphics interchange format*** _)_ Mozgókép, ismétlődően lejátszódó. 
+
++ **LOGIN** _(login panel)_ Bejelentkezés, bejelentkezési felület.
+
++ **MODERÁTOR** Tartalmak moderálásáért, engedélyezéséért felelős jogkör.
+
++ **PROFIL** Felhasználók azonosítására alkalmas egyéni jel.
+
++ **RANG** Jogosultsági szintek egymásra épülő engedélyekkel.
+
++ **RESZPONZÍV** _(angol:_ ***responsive***_)_ Olyan megközelítés, amely azt eredményezi, hogy a weboldal láthatósága bármely széles körben elterjedt kijelző méret számára esztétikus megjelenést biztosít.
