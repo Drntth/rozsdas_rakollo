@@ -302,3 +302,17 @@ A webszerverre közvetlenül az internetről kapcsolódnak rá a kliensek.
 
 ## 12. Karbantartási terv
 
+### Tartalmi karbantartás:
+
++ A weboldalon megjelenő tartalmak folyamatos ellenőrzés alatt állnak.
+Az esetleges személyi hibából elfgadásra jelölt, ám mégsem az oldalra való bejegyzéseket a felhasználók jelenteni tudják a nagyobb jogosultsággal rendelkező felhasználók számára.
+Időszakosan végezhető karbantartás a regisztrált felhasználók felhasználóneveinek véletlenszerű ellenőrzése esetlegesen előforduló sértő szavak használata ellen.
+
+### Rendszeres karbantartás:
+
++ __Biztonsági mentések készítése__ : a weboldal fájljairól és adatbázisáról rendszeresen másolat készül két helyre, egy felhőszolgáltatásba és egy külső merevlemezre.
+Így ha valami nem várt esemény történne a weboldallal, például vírusfertőzés, külső támadás vagy adatvesztés, akkor egyszerűen visszaállítható egy korábbi, működő állapotba.
+A biztonsági mentések gyakorisága az oldal aktuális bejegyzések keletkezésének gyakoriságától függően napi, heti vagy havi gyakoriságú.
+Egyszerre mindig öt korábbi verziót tárolunk, ebből három a legutóbbi, a többi egy-egy ezeknál is régebbi verzió.
+
++ __Adatbázis karbantartása__ : rendszeresen tisztítjuk az adatbázist a felesleges adatoktól, például a régi verzióktól, a spam kommentektől, az inaktív felhasználóktól. Az adatbázis karbantartása segít megtakarítani az adattárhelyet, növelni az adatbázis sebességét és csökkenteni az adatvesztés kockázatát.
