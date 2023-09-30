@@ -56,7 +56,7 @@ Ezen felül viszont a rendszer nem célja az, hogy az oldal által is kiválaszt
 | :-------------: | :------------------: | :--------: |
 | ![latogato_uzleti.png](https://github.com/Drntth/rozsdas_rakollo/blob/main/Images/latogato_uzleti.png) | Látogató | Csak a posztok olvasására képes. |
 | ![felhasznalo_uzleti.png](https://github.com/Drntth/rozsdas_rakollo/blob/main/Images/felhasznalo_uzleti.png) | Felhasználó | Képes: regisztrálni, bejelentkezni, posztot olvasni, létrehozni, pontozni, felhasználói profilt módosítani. |
-| ![szerkeszto_uzleti.png](https://github.com/Drntth/rozsdas_rakollo/blob/main/Images/szerkeszto_uzleti.png) | Szerkesztő | Képes: regisztrálni, bejelentkezni, posztot olvasni, létrehozni, pontozni, felhasználói profilt módosítani és engedélykérésre várakozó posztokat engedélyezni |
+| ![szerkeszto_uzleti.png](https://github.com/Drntth/rozsdas_rakollo/blob/main/Images/szerkesztoi_uzleti.png) | Szerkesztő | Képes: regisztrálni, bejelentkezni, posztot olvasni, létrehozni, pontozni, felhasználói profilt módosítani és engedélykérésre várakozó posztokat engedélyezni |
 | ![admin_uzleti.png](https://github.com/Drntth/rozsdas_rakollo/blob/main/Images/admin_uzleti.png) | Admin | Képes: bejelentkezni, posztot olvasni, létrehozni, pontozni, felhasználói profilt módosítani, engedélykérésre várakozó posztokat engedélyezni és jogosultságokat kiosztani, vagy azokat elvenni |
 
 ## 4. Követelmények
