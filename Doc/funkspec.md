@@ -180,6 +180,8 @@ Itt tudják a felhasználók módosítani a saját profiljuk megjelenését, ill
 Amennyiben **moderátori** jogosultsággal jelentkezünk be, az alábbi jogkörök jogain felül megjelenik egy engedélyezés gomb a navigációs sávon.
 Ezt az oldalt megnyitva a felhasználók által létrehozott bejegyzéseket láthatjuk, amelyeket engedélyezhetünk vagy elutasíthatunk.
 
+Amennyiben a felhasználó **adminisztrátori** jogosultsággal rendelkezve lép be a weboldalra, a fentebb említett alacsonyabb jogosultsági szintekkel rendelkező felhasználók által elérhető opciók mellett szintén a navigációs sávon elérhetővé válik egy _"Jogosultságok"_ gomb is, amelyben a regisztrált fiókkal rendelkező felhasználók jogosultsági szintjeit módosíthatjuk.
+
 ## 10. Funkció - követelmény megfeleltetése
 
 | Id | Követelmény | Funkció |
