@@ -128,6 +128,12 @@ Ilyen többek között a profil adatainak és tulajdonságainak módosítása, v
 + **K4** : A regisztrált felhasználók számára létrehozunk egy egyszerűen használható felületet, ahol fel tudják tölteni a saját tartalmaikat.
 Ehhez létrehozunk egy admin jogosultsággal elérhető oldalt is, ahol kezelni tudjuk az érkező anyagokat.
 
++ **K5** : A főöldalon sorrendbe rendezve jelenítjük meg a vicces tartalmakat pontszám szerint csökkenő sorrendben.
+A pontszámot az határozza meg, hogy a felhasználók hány pontra értékelték azokat.
+
++ **K6** : Az adminoknak létrehozott felületen láthatják a még elfogadásra váró képeket, a felhasználók által jelentett tartalmakat és profilokat.
+Módosítani illetve törölni tudnak tartalmakat, vagy profilokat.
+
 ## 8. Képernyőtervek
 
 | Kép | Leírás |
