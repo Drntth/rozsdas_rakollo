@@ -284,6 +284,14 @@ MySql adatbázis szervert használunk az adatok tárolására.
 
 ## 10. Tesztterv
 
++ __Komponens tesztelés__ : az egyes weboldal elemekinek _(Például gombok, menük, űrlapok)_ működésének és megjelenítésének ellenőrzése.
+
++ __Integrációs tesztelés__ : a weboldal elemek közötti interakcióinak és kommunikációjának ellenőrzése.
+_(Például azt, hogy a bejegyzések megfelelően jelennek meg a kategóriák alatt, vagy hogy a jogosultságok kezelése helyesen működik.)_
+
++ __Rendszertesztelés__ : a weboldal teljesítményének, megbízhatóságának, biztonságának és használhatóságának ellenőrzése.
+_(Például a weboldal viselkedése nagy terhelés alatt, vagy hogy mennyire védett a különböző támadásoktól.)_
+
 ## 11. Telepítési terv
 
 + **Fizikai telepítési terv** : A weboldal rendeltetésszerű működéséhez szükség van egy adatbázis szerverre.
