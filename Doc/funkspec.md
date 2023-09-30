@@ -134,6 +134,12 @@ A pontszámot az határozza meg, hogy a felhasználók hány pontra értékelté
 + **K6** : Az adminoknak létrehozott felületen láthatják a még elfogadásra váró képeket, a felhasználók által jelentett tartalmakat és profilokat.
 Módosítani illetve törölni tudnak tartalmakat, vagy profilokat.
 
++ **K7** : A moderátorok számára létrehozott felület az admin felüethez hasonlóan kerül elkészítésre, listázza az elfogadásra váró tartalmakat, amennyiben nem megfelelőnek találják azokat egy gomb segítségével tovább tudják küldeni azokat az adminoknak felülvizsgálatra.
+
++ **K8**, **K9** : Az oldalak tetején elhelyezett gombok segítségével el tudjuk érni a login panelt.
+A felhasználó bejelentkezhet a saját profiljába vagy hogy ezt később megtehesse létrehozhat egyet magának egy egyszerűen kezelhető felületen.
+Ezután szabadon tölthetnek fel tartalmakat, ám ezeket kizárólag ellenőrzés után tudják megtekinteni a foldalon vagy a kategóriákban.
+
 ## 8. Képernyőtervek
 
 | Kép | Leírás |
