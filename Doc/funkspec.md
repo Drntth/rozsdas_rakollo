@@ -203,6 +203,11 @@ Az ***elküldés*** gomb megnyomása után a bejegyzés megjelenik a nagyobb jog
 Természetesen ezt a saját bejegyzésénél is láthatja.
 + Bejelenthet más felhasználók által létrehozott bejegyzéseket felülvizsgálatra.
 
+A következő részben a *moderátor* jogkörrel rendelkezők lehetőségeit ismertetem:
++ Minden korábban felsorolt lehetőséggel élhet
++ Az **engedélyezés** menüpontban a felhasználók által elküldött bejegyzéseket megtekintheti, és határozhat azok megjelenítéséről vagy elutasításáról, amelyeket az admin jogkörrel rendelkezők felülvizsgálhatnak.
+
+
 ## 10. Funkció - követelmény megfeleltetése
 
 | Id | Követelmény | Funkció |
