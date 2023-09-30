@@ -63,17 +63,29 @@ Ezen felül viszont a rendszer nem célja az, hogy az oldal által is kiválaszt
 
 ### Funkcionális követelmények
 
-| ID | Megnevezés | Leírás |
-| --- | --- | --- |
-| K1 | ... | ... |
++ Bejegyzések tárolása (képes képet vagy más formátumot pl. gif-et kezelni)
++ Felhasználók adatainak tárolása (profilkép, felhasználónév, jelszó, email)
++ Webes környezeten működőképes (reszponzív, így számítógépen / telefonon is megjeleníthető)
++ Képes úgy megjelíteni posztokat, hogy nincs aktív bejelentkezett felhasználó
++ Bejelentkezett felhasználó reakciót adhat különböző más felhasználók tevékenységeire
++ A webes felület gördülékenyen kommunikál a hozzárendelt adatbázissal
 
 ### Nemfunkcionális követelmények
 
-| ID | Megnevezés | Leírás |
-| --- | --- | --- |
-| K4 | ... | ... |
+- Felhasználók nem módosíthatnak más felhasználók bejegyzéseit
+- Felhasználók nem férhetnek hozzá más felhasználók személyes adataihoz csak a felhasználónevüket és profilképüket láthatják
+- Az oldal könnyen kezelhető, minimális informatikai tudással igénybe vehető
+- Webes felületen kezel adatbázist
+- Az oldal eléréséhez egy okoseszközre és internethozzáférésre van szükség, így nem igényel különleges hardveres támogatást
+- Használatához telepítés nem szükséges, különböző kiegészítők használata nélkül is elérhető
 
 ### Támogatott eszközök
+
++ Bármilyen olyan okoseszköz, mely rendelkezik internetes hozzáféréssel és böngészővel
++ Okostelefon, 
+tablet, 
+laptop, 
+asztali számítógép...
 
 ## 5. Funkcionális terv
 
