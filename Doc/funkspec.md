@@ -182,6 +182,14 @@ Ezt az oldalt megnyitva a felhasználók által létrehozott bejegyzéseket lát
 
 Amennyiben a felhasználó **adminisztrátori** jogosultsággal rendelkezve lép be a weboldalra, a fentebb említett alacsonyabb jogosultsági szintekkel rendelkező felhasználók által elérhető opciók mellett szintén a navigációs sávon elérhetővé válik egy _"Jogosultságok"_ gomb is, amelyben a regisztrált fiókkal rendelkező felhasználók jogosultsági szintjeit módosíthatjuk.
 
+A most következő részben az __megtekintő__ ként (nem bejelentkezett felhasználó) megtehető lehetőségeket fogom bemutatni:
++ **Bejelentkezés** : Amennyiben a felhasználó rendelkezik fiókkal az adatait megadva be tud jelentkezni.
++ **Regisztráció** : Amennyiben a felhasználó még nem rendelkezik fiókkal az adatait megadva be tud regisztrálni az oldalra 
+(Ennek előnyeit később részletesen kifejtve mutatom be.)
++ Alapértelmezetten egy felhasználók által rangsorolt toplistát láthat, a legjobban értékelt tartalomtól a legkevésbé értékeltig.
++ Kiválaszthat egy kategóriát, ami érdekli. Például az *Apa viccek* kategóriát. Megnézhetii a legjobb bejegyzéseket ebben a kategóriában.
++ Láthatja az összes értékelés átlagát a bejegyzéseknél
+
 ## 10. Funkció - követelmény megfeleltetése
 
 | Id | Követelmény | Funkció |
