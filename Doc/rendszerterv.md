@@ -24,6 +24,7 @@ Ezen felül viszont a rendszer nem célja az, hogy az oldal által is kiválaszt
    + Mizere Robin Roland
    + Sipos Valentin Dominik
    + Kovácspál Bálint István
+   
    Feladatuk: Heti meetingek megszervezése.
    Akadályok feltárása.
    Következő elvégzendő feladatok átbeszélése.
@@ -42,6 +43,7 @@ Ezen felül viszont a rendszer nem célja az, hogy az oldal által is kiválaszt
    + Mizere Robin Roland
    + Sipos Valentin Dominik
    + Kovácspál Bálint István
+
    Feladatuk: A felhasználók által elérhető felületek létrehozása. 
    A backend által biztosított funkciók igénybevétele.
    Egységes design megalkotása.
@@ -50,6 +52,7 @@ Ezen felül viszont a rendszer nem célja az, hogy az oldal által is kiválaszt
   + Mizere Robin Roland
   + Sipos Valentin Dominik
   + Kovácspál Bálint István
+
   Feladatuk: A frontend kiszolgálása adatokkal. 
   Adatbázisok létrehozása
 * Tesztelés:
@@ -274,6 +277,10 @@ A pontozás tábla felépítése:
 | kapott_pontszam | INT | Not null |  |
 
 ## 9. Implementációs terv
+A webszerveren futó php program tartalmazza az üzleti logikát.
+A felhasználói felület, ami böngészőben megjelenő weboldalak formájában érhető el HTML, CSS, és JavaScript technológiák felhasználásával készülnek.
+A programok objektum orientált programozási paradigma használatával, MVC modell használata mellett.
+MySql adatbázis szervert használunk az adatok tárolására.
 
 ## 10. Tesztterv
 
