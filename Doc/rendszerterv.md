@@ -286,9 +286,11 @@ MySql adatbázis szervert használunk az adatok tárolására.
 
 ## 11. Telepítési terv
 
-Fizikai telepítési terv: 
++ **Fizikai telepítési terv** : A weboldal rendeltetésszerű működéséhez szükség van egy adatbázis szerverre.
+Az adatbázis közvetlenül csatlakozik a webszerververhez.
+A webszerverre közvetlenül az internetről kapcsolódnak rá a kliensek.
 
-Szoftver telepítési terv: 
++ **Szoftver telepítési terv** : A szoftver webes felületéhez csak egy webböngésző telepítése szükséges ( Google Chrome, Firefox, Opera, Edge, Brave, Vivaldi ) külön speciális szoftvert nem szükséges telepíteni a használathoz.
 
 ## 12. Karbantartási terv
 
