@@ -168,6 +168,9 @@ A kezdőlap tartalmazza a navigációs sávot, ahol bejelentkezni illetve regisz
 Baloldalon találhatjuk a műfajokat, ezekből választva egyet az oldal megjeleníti az adott műfajhoz tartozó tartalmakat.
 Alapértelmezetten egy toplistás rangsorolást láthatunk, a legjobban értékelt tartalomtól a legkevésbé értékeltig.
 
++ A **Regisztráció** gombra nyomva megjelenik a regisztrációs panel, ahogy a látogatók pár adat megadása után regisztrált felhasználóvá válhatnak.
++ A **Belépés** -t választva a bejelentkezési adataink *(felhasználónév, jelszó)* lehet belépni az oldalra. Hibás felhasználó név vagy jelszó megadása esetén újból meg kell adni az adatokat.
+
 ## 10. Funkció - követelmény megfeleltetése
 
 | Id | Követelmény | Funkció |
