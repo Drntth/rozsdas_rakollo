@@ -91,7 +91,89 @@ asztali számítógép...
 
 ### 5.1 Rendszerszereplők
 
++ **ADMIN**
+    - a rendszer felügyelete az elsődleges feladata, ennek tesztelésére minden szerepkörbe be tud lépni, hogy ellenőrizze azok hibamentes üzemelését
+    - az egész rendszerhez korlátlan hozzáféréssel rendelkezik, így a felhasználók profiljait is szabadon módosíthatják (jogosultságait, szerepkörét, felhasználónevét és jelszavát)
+    - új felhasználókat adhatnak a rendszerhez, vagy egy már meglévőt is eltávolíthatnak onnan, ha az valamilyen szabályt megsértett
+    - képesek rendszerszintű üzeneteket küldeni amit minden felhasználó megkap
+    - joguk van egy moderátor által engedélyezett bejegyzést törölni vagy módosítani.
+
++ **MODERÁTOR**
+    - feladata a felhasználók tevékenységeinek felügyelete, a rendszer olyan szintű karbantartása, ami különböző etikai és más szabályoknak való megfeleltetésre szolgál
+    - a rendszerhez nincs korlátlan hozzáférése, magát a rendszert nem módosíthatja, csak és kizárólag a megjelenített tartalmat és a felhasználók tevékenységeit
+    - jogukban áll adott felhasználóknak üzenetet küldeni
+    - a felhasználók által feltöltött posztokat ők ellenőrzik, majd elfogadás után azok megjelennek a főoldalon, vagy elutasítás esetén törlése kerülnek.
+
++ **FELHASZNÁLÓ**
+    - jogában áll az oldalon megjelenő minden tartalom megtekintése, valamint az ezekre adott visszajelző rendszerek használata
+    - különböző bejegyzéseket posztolhat, más bejegyzésekre pontokat adhat, vagy hozzászólást írhat.
+
++ **LÁTOGATÓ**
+    - az oldalon megjelenő bejegyzéseket tekintheti meg
+    - a bejegyzéssel nem interaktálhat csak ha rendelkezik profillal
+
 ### 5.2 Menühierarchiák
+
++ **FŐOLDAL**
+    - Bejegyzések
+    - Műfajok
+    - Bejelentkezés
+    - Regisztráció
+
++ **FŐOLDAL (BEJELENTKEZVE)** 
+    - Bejegyzések
+    - Pontozás
+    - Műfajok
+    - Saját profil
+    - Kijelentkezés
+    - Új bejegyzés
+
++ **FŐOLDAL (MODERÁTOR)** 
+    - Bejegyzések
+    - Pontozás
+    - Műfajok
+    - Engedélyezés
+    - Saját profil
+    - Kijelentkezés
+    - Új bejegyzés
+
++ **FŐOLDAL (ADMIN)** 
+    - Bejegyzések
+    - Pontozás
+    - Műfajok
+    - Jogosultságok
+    - Engedélyezés
+    - Saját profil
+    - Kijelentkezés
+    - Új bejegyzés
+
++ **REGISZTRÁCIÓ**
+    - Regisztrációs felület
+    - Bejelentkezés
+    - Vissza a főoldalra
+
++ **BEJELENTKEZÉS**
+    - Bejelentkeztető felület
+    - Regisztráció
+    - Vissza a főoldalra
+
++ **ÚJ BEJEGYZÉS**
+    - Bejegyzés szerkesztésére szolgáló felület
+    - Vissza
+
++ **FELHASZNÁLÓI PROFIL**
+    - Profil szerkesztésére szolgáló felület
+    - Vissza
+
++ **ENGEDÉLYEZÉS**
+    - Felhasználók által beüldött posztok
+    - Elfogadás / Elutasítás
+    - Vissza
+
++ **JOGOSULTSÁGOK**
+    - Jogosultságok kezelésére szolgáló felület felhasználónként
+    - Módosítás
+    - Vissza
 
 ## 6. Fizikai környezet
 
