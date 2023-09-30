@@ -117,6 +117,11 @@ A felhasználók által feltöltött posztokat ők ellenőrzik, majd elfogadás 
 
 ## 7. Megfeleltetés, hogyan fedik le a használati eseteket a követelményeket
 
++ **K1**, **K2** : A weboldalt úgy hozzuk létre, hogy az tartalmazza a kezdőoldalt.
+Ezt az oldalt bárki bármilyen jogosultság nélkül elérheti és böngészhet rajta kedvére.
+Válogathat az egyes kategórák között, ahol az adott kategóriának megfelelő tematikájú tartalom fogja fogadni.
+A kezdőoldalon elérhető továbbá a bejelentkezés és regisztráció menüpont is amelyről később részletesebben is olvashatunk.
+
 ## 8. Képernyőtervek
 
 | Kép | Leírás |
