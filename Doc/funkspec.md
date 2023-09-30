@@ -171,11 +171,14 @@ Alapértelmezetten egy toplistás rangsorolást láthatunk, a legjobban értéke
 + A **Regisztráció** gombra nyomva megjelenik a regisztrációs panel, ahogy a látogatók pár adat megadása után regisztrált felhasználóvá válhatnak.
 + A **Belépés** -t választva a bejelentkezési adataink *(felhasználónév, jelszó)* lehet belépni az oldalra. Hibás felhasználó név vagy jelszó megadása esetén újból meg kell adni az adatokat.
 
-Amennyiben Felhasználói jogkörrel rendelkező személy lép be, az alapértelmezetthez képest bővebb információhoz jutunk a tartalmakat tekintve, megjelenik az általunk adott pontszám, és az összpontszám, valamint egy gomb, ahol értékelhetjük az adott bejegyzést.
+Amennyiben **Felhasználói** jogkörrel rendelkező személy lép be, az alapértelmezetthez képest bővebb információhoz jutunk a tartalmakat tekintve, megjelenik az általunk adott pontszám, és az összpontszám, valamint egy gomb, ahol értékelhetjük az adott bejegyzést.
 Látható egy gomb, amelyen egy "**+**" ikon látható, erre a gombra kattintva megjelenik a _Bejegyzés létrehozása_ menüpont.
 Itt tudnak a regisztrált felhasználók új bejegyzést létrehozni, ezután ezokat ellenőzés után az oldalon újra láthatják.
 A belépést követően a **regisztráció** gomb **profil szerkesztése** gombbá változik.
 Itt tudják a felhasználók módosítani a saját profiljuk megjelenését, illetve jelszavukat.
+
+Amennyiben **moderátori** jogosultsággal jelentkezünk be, az alábbi jogkörök jogain felül megjelenik egy engedélyezés gomb a navigációs sávon.
+Ezt az oldalt megnyitva a felhasználók által létrehozott bejegyzéseket láthatjuk, amelyeket engedélyezhetünk vagy elutasíthatunk.
 
 ## 10. Funkció - követelmény megfeleltetése
 
