@@ -86,6 +86,8 @@ Ezen felül viszont a rendszer nem célja az, hogy az oldal által is kiválaszt
 | Tábla neve | Leírás |
 | :-----------: | :-----------: |
 | felhasznalok | A felhasználók táblában tároljuk a regisztrációkor megadott adatokat. |
+| posztok | A posztok táblában tároljuk a felhasználók által beküldött posztokat. |
+| pontozas | A pontozás táblában tároljuk a felhasználók által beküldött pontszámokat az egyes posztokra. |
 
 ![felhasznalok_tabla.png](https://github.com/Drntth/rozsdas_rakollo/blob/main/Images/felhasznalok_tabla.png)
 
