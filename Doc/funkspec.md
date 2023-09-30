@@ -144,6 +144,8 @@ Ezután szabadon tölthetnek fel tartalmakat, ám ezeket kizárólag ellenőrzé
 
 + **K11** : Bejelenkezett felhasználók számára elérhető funkció a meglévő jelszavuk megváltoztatása. Biztonsági okokból szükség van az aktuális jelszó megadására is.
 
++ **K12** : Minden regisztált felhasználó számára elérhető felületet biztosítunk a profiljuk megjelenésének módosítására.
+
 ## 8. Képernyőtervek
 
 | Kép | Leírás |
