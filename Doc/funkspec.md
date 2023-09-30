@@ -163,6 +163,8 @@ Ezután szabadon tölthetnek fel tartalmakat, ám ezeket kizárólag ellenőrzé
 
 ## 9. Forgatókönyvek
 
+### 9.1 Alap forgatókönyv
+
 A weblap megnyitásakor a **Kezdőlap** oldal jelenik meg minden felhasználó számára.
 A kezdőlap tartalmazza a navigációs sávot, ahol bejelentkezni illetve regisztálni tudunk, illetve az oldal címét.
 Baloldalon találhatjuk a műfajokat, ezekből választva egyet az oldal megjeleníti az adott műfajhoz tartozó tartalmakat.
@@ -181,6 +183,8 @@ Amennyiben **moderátori** jogosultsággal jelentkezünk be, az alábbi jogkör�
 Ezt az oldalt megnyitva a felhasználók által létrehozott bejegyzéseket láthatjuk, amelyeket engedélyezhetünk vagy elutasíthatunk.
 
 Amennyiben a felhasználó **adminisztrátori** jogosultsággal rendelkezve lép be a weboldalra, a fentebb említett alacsonyabb jogosultsági szintekkel rendelkező felhasználók által elérhető opciók mellett szintén a navigációs sávon elérhetővé válik egy _"Jogosultságok"_ gomb is, amelyben a regisztrált fiókkal rendelkező felhasználók jogosultsági szintjeit módosíthatjuk.
+
+### 9.2 Jogosultsági szintek lehetőségei
 
 A most következő részben az __megtekintő__ ként (nem bejelentkezett felhasználó) megtehető lehetőségeket fogom bemutatni:
 + **Bejelentkezés** : Amennyiben a felhasználó rendelkezik fiókkal az adatait megadva be tud jelentkezni.
