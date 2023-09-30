@@ -177,7 +177,15 @@ asztali számítógép...
 
 ## 6. Fizikai környezet
 
+- Az alkalmazás web platformra készül, ami asztali számítógépről, hordozható készülékekről (laptop, táblagép, okostelefon) egyaránt elérhető megfelelő internet hozzáférés mellett.
+- Semmilyen böngésző kiegészítő használata nem szükséges. 
+
 ### Fejlesztő eszközök
++ Visual Studio Code
++ Notepad++ 
++ XAMPP
++ phpMyAdmin
+
 
 ## 7. Architekturális terv
 
