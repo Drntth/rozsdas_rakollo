@@ -41,23 +41,9 @@ Ezen felül viszont a rendszer nem célja az, hogy az oldal által is kiválaszt
 |Program                  |Tesztelés                               |         4 |             2 |                      2 |       
 ## 3. Üzleti folyamatok modellje
 
-![uzleti_folyamatok_modellje.png](https://github.com/Drntth/rozsdas_rakollo/blob/main/Images/uzleti_folyamatok_modellje.png)
-
 ### 3.1 Üzleti szereplők
 
-+ Admin
-+ Szerkesztő
-+ Felhasználó
-+ Látogató / Olvasó
-
 ### 3.2 Üzleti folyamatok
-
-| Üzleti Szereplő | Üzleti szereplő neve | Feladatkör |
-| :-------------: | :------------------: | :--------: |
-| ![latogato_uzleti.png](https://github.com/Drntth/rozsdas_rakollo/blob/main/Images/latogato_uzleti.png) | Látogató | Csak a posztok olvasására képes. |
-| ![felhasznalo_uzleti.png](https://github.com/Drntth/rozsdas_rakollo/blob/main/Images/felhasznalo_uzleti.png) | Felhasználó | Képes: regisztrálni, bejelentkezni, posztot olvasni, létrehozni, pontozni, felhasználói profilt módosítani. |
-| ![szerkeszto_uzleti.png](https://github.com/Drntth/rozsdas_rakollo/blob/main/Images/szerkeszto_uzleti.png) | Szerkesztő | Képes: regisztrálni, bejelentkezni, posztot olvasni, létrehozni, pontozni, felhasználói profilt módosítani és engedélykérésre várakozó posztokat engedélyezni |
-| ![admin_uzleti.png](https://github.com/Drntth/rozsdas_rakollo/blob/main/Images/admin_uzleti.png) | Admin | Képes: bejelentkezni, posztot olvasni, létrehozni, pontozni, felhasználói profilt módosítani, engedélykérésre várakozó posztokat engedélyezni és jogosultságokat kiosztani, vagy azokat elvenni |
 
 ## 4. Követelmények
 
@@ -94,52 +80,6 @@ Ezen felül viszont a rendszer nem célja az, hogy az oldal által is kiválaszt
 ### A program elérése, kezelése
 
 ## 8. Adatbázis terv
-
-![adatbazisterv.png](https://github.com/Drntth/rozsdas_rakollo/blob/main/Images/adatbazisterv.png)
-
-| Tábla neve | Leírás |
-| :-----------: | :-----------: |
-| felhasznalok | A felhasználók táblában tároljuk a regisztrációkor megadott adatokat. |
-| posztok | A posztok táblában tároljuk a felhasználók által beküldött posztokat. |
-| pontozas | A pontozás táblában tároljuk a felhasználók által beküldött pontszámokat az egyes posztokra. |
-
-![felhasznalok_tabla.png](https://github.com/Drntth/rozsdas_rakollo/blob/main/Images/felhasznalok_tabla.png)
-
-A felhasználók tábla felépítése:
-
-| Mező neve | Értéke | Egyébb | Extra |
-| :-----: | :-----: | :-----: | :-----: |
-| felhasznalok_id | INT | Not null, Auto incremental | Elsődleges kulcs |
-| username | VARCHAR(45) | Not null | Unique index |
-| password | VARCHAR(45) | Not null |  |
-| szuletesi_ido | DATE | Not null | Formátum: ÉÉÉÉ-HH-NN |
-| jogosultsag | VARCHAR(45) | Not null | Automatikusan regisztráláskor a "Felhasználó" kerül bele |
-
-![posztok_tabla.png](https://github.com/Drntth/rozsdas_rakollo/blob/main/Images/posztok_tabla.png)
-
-A posztok tábla felépítése:
-
-| Mező neve | Értéke | Egyébb | Extra |
-| :-----: | :-----: | :-----: | :-----: |
-| posztok_id | INT | Not null, Auto incremental | Elsődleges kulcs |
-| cim | VARCHAR(45) | Not null |  |
-| bejegyzes | VARCHAR(300) | Not null |  |
-| engedelyezve | VARCHAR(4) | Not null | Automatikusan a "Nem" kerül bele, a későbbiekben lehet ezt "Igen"-re állítani |
-
-
-A kettőt összekötő kapcsolati tábla, a pontozás tábla.
-Ez a tábla több- a több kapcsolattal jött létre.
-Azért volt erre szükség, hisz egy felhasználónak tudnia kell több posztot is pontoznia, és egy posztnak tudnia kell értékelődnie több felhasználó által.
-
-![pontozas_tabla.png](https://github.com/Drntth/rozsdas_rakollo/blob/main/Images/pontozas_tabla.png)
-
-A pontozás tábla felépítése:
-
-| Mező neve | Értéke | Egyébb | Extra |
-| :-----: | :-----: | :-----: | :-----: |
-| felhasznalok_felhasznalok_id | INT | Not null | Elsődleges kulcsot önnállóan nem alkot, csak a posztok_posztok_id kulccsal, külsőleg kapja a felhasznalok tábla felhasznalok_id mező értékét. |
-| posztokok_posztok_id | INT | Not null | Elsődleges kulcsot önnállóan nem alkot, csak a felhasznalok_felhasznalok_id kulccsal, külsőleg kapja a posztok tábla posztok_id mező értékét. |
-| kapott_pontszam | INT | Not null |  |
 
 ## 9. Implementációs terv
 
