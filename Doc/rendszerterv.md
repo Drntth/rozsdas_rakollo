@@ -20,10 +20,7 @@ Ezen felül viszont a rendszer nem célja az, hogy az oldal által is kiválaszt
 
 ### 2.1 Projektszerepkörök, felelőségek:
 * Scrum masters:
-   + Tóth Dorina Ildikó
-   + Mizere Robin Roland
-   + Sipos Valentin Dominik
-   + Kovácspál Bálint István
+   + Birinyi Gergő
    
    Feladatuk: Heti meetingek megszervezése.
    Akadályok feltárása.
@@ -60,6 +57,7 @@ Ezen felül viszont a rendszer nem célja az, hogy az oldal által is kiválaszt
   + Mizere Robin Roland
   + Sipos Valentin Dominik
   + Kovácspál Bálint István
+  
   Feladatuk: Hibák feltárása az üzembe helyezés előtt.
      
 ### 2.3 Ütemterv:
