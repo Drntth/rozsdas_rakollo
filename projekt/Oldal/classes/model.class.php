@@ -21,5 +21,46 @@
             $stmt->execute();
             return $stmt;
         }
+        protected function regM($data){
+            $sql="INSERT INTO felhasznalok(username,password,szuletesi_datum,jogosultsag) VALUES(?,?,?,'2')";
+            $stmt=$this->connect()->prepare($sql);
+            $stmt->execute($data);
+            header("location:bejelentkezes.php");
+        }
+
+        protected function login($username, $pwd){
+            $sql="SELECT * FROM felhasznalok WHERE username=:username && password=:pwd";
+            $stmt= $this->connect()->prepare($sql);
+    
+            $stmt->bindParam(":username",$username);
+            $stmt->bindParam(":pwd",$pwd);
+    
+            $stmt->execute();
+    
+            if($stmt->rowCount()>0){
+                session_start();
+                $_SESSION["belepett"] = true;
+                while($row=$stmt->fetch())
+                {
+                    $_SESSION["nev"] = $row["username"];
+                    $_SESSION["jog"] = $row["jogosultsag"];
+                    switch ($_SESSION["jog"]) {
+                        case "1":
+                            header("location:admin.php");
+                          break;
+                        case "4":
+                            header("location:szerkeszto.php");
+                          break;
+                        default:
+                            header("location:felhasznalo.php");
+                          break;
+                      }
+                }
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 ?>
