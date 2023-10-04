@@ -4,29 +4,13 @@
         
         public function Mufajok(){
             $stmt=$this->MufajokM();
-            echo '<h4>Műfajok</h4> <ul>';
+            echo '<h4>Műfajok</h4>';
             while($row=$stmt->fetch())
             {
                 echo'
-                <li>'.$row["mufaj_neve"].'</li>
+                <p>'.$row["mufaj_neve"].'</p>
                 ';
             }
-            echo '</ul>';
-        }
-
-        public function Felhasznalok(){
-            $stmt=$this->FelhasznalokM();
-            echo '<h4>Fiókok</h4>';
-            echo '<table>';
-            echo '<tr> <th>Felhasználónév</th><th>Jogosultság</th><th></th></tr>';
-
-            while($row=$stmt->fetch())
-            {
-                echo '<tr>';
-                echo '<td>'.$row["username"].'</td><td><select><option value="'.$row["jogosultsag_nev"].'" selected>'.$row["jogosultsag_nev"].'</option><option value="Szerkesztő">Szerkesztő</option><option value="Felhasználó">Felhasználó</option></td>';
-                echo '</tr>';
-            }
-            echo '</table>';
         }
 
         public function Posztok(){
@@ -34,10 +18,10 @@
             while($row=$stmt->fetch())
             {
                 echo'
-                <div class="card" style="width: 18rem;">
+                <div class="card">
                     <div class="card-body">
+                        <h6 class="card-subtitle">'.$row["username"].'</h6>
                         <h5 class="card-title">'.$row["cim"].'</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">'.$row["username"].'</h6>
                         <p class="card-text">'.$row["bejegyzes"].'</p>
                     </div>
                 </div>

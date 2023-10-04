@@ -1,7 +1,7 @@
 <?php
 
 echo'
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-md">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.php">Rozsdás Rákolló - Viccek</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -10,7 +10,7 @@ echo'
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="bejelentkezes.php">Bejelentkezés |</a>
+                        <a class="nav-link" href="bejelentkezes.php">Bejelentkezés</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="regisztracio.php">Regisztráció</a>

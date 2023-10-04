@@ -1,0 +1,91 @@
+html, body{
+    font-family: 'Times New Roman', Times, serif;
+    color: #000 !important;
+    background-color: #A0522D !important;
+}
+
+.row.content { height: 70%; width: auto;}
+@media screen and (max-width: 767px) {
+    .sidenav { height: auto; }
+    .row.content {height: auto;} 
+  }
+
+/*#region NAVBAR*/
+    .navbar {
+        background-color: #A0522D;
+    }
+    .navbar a, .navbar a:active, .navbar a:visited{
+        color: #000;
+        font-weight: bold;
+    }
+    .navbar a:hover{
+        color: #fff;
+    }
+    .navbar .navbar-brand{
+        font-size: 250%;
+        margin: 2%;
+    }
+    .navbar li {
+        background-color: #E51400;
+        border: 1px solid #A6381F;
+        border-radius: 10px;
+        font-size: 115%;
+    }
+/*#endregion */
+
+/*#region SIDENAV*/
+    .sidenav {
+        height: 100vh;
+        background-color: #F0A30A;
+        margin: 1%;
+        border: 1px solid #C57802;
+    }
+    .sidenav h4{
+        font-size: 170%;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 2%;
+    }
+    .sidenav p{
+        list-style-type: none;
+        background-color: #E51400;
+        color: #fff;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        padding: 5%;
+        border: 1px solid #B60600;
+        box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.25);
+        font-size: 140%;
+    }
+    .sidenav p:hover{
+        color: #000;
+        font-weight: bold;
+    }
+/*#endregion */
+
+/*#region MAIN*/
+    .main {
+        background-color: #60A917;
+        height: 100vh;
+        margin: 1%;
+        border: 1px solid #357F04;
+    }
+    .card {
+        background-color: #D66E3C;
+        width: 100%;
+        margin: 1%;
+        margin-left: 0px;
+        box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.25);;
+    }
+    .card .card-body .card-subtitle {
+        color: #000;
+    }
+    .card .card-body .card-title {
+        font-weight: bold;
+        font-size: 150%;
+    }
+    .card .card-body .card-text {
+        text-align: justify;
+    }   
+/*#endregion */
