@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Gép: 127.0.0.1
--- Létrehozás ideje: 2023. Okt 04. 19:08
+-- Létrehozás ideje: 2023. Okt 04. 20:54
 -- Kiszolgáló verziója: 10.4.28-MariaDB
 -- PHP verzió: 8.2.4
 
@@ -35,6 +35,31 @@ CREATE TABLE `felhasznalok` (
   `jogosultsag` varchar(45) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+--
+-- A tábla adatainak kiíratása `felhasznalok`
+--
+
+INSERT INTO `felhasznalok` (`felhasznalok_id`, `username`, `password`, `szuletesi_datum`, `jogosultsag`) VALUES
+(1, 'username', 'proba', '2023-10-04', 'felhasznalo');
+
+-- --------------------------------------------------------
+
+--
+-- Tábla szerkezet ehhez a táblához `mufajok`
+--
+
+CREATE TABLE `mufajok` (
+  `mufajok_id` int(11) NOT NULL,
+  `mufaj_neve` varchar(45) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- A tábla adatainak kiíratása `mufajok`
+--
+
+INSERT INTO `mufajok` (`mufajok_id`, `mufaj_neve`) VALUES
+(1, 'Mufaj1');
+
 -- --------------------------------------------------------
 
 --
@@ -58,8 +83,16 @@ CREATE TABLE `posztok` (
   `cim` varchar(45) NOT NULL,
   `bejegyzes` varchar(300) NOT NULL,
   `mufaj` varchar(45) NOT NULL,
-  `engedelyezve` varchar(4) NOT NULL DEFAULT 'Nem'
+  `engedelyezve` varchar(4) NOT NULL DEFAULT 'Nem',
+  `felhasznalok_felhasznalok_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- A tábla adatainak kiíratása `posztok`
+--
+
+INSERT INTO `posztok` (`posztok_id`, `cim`, `bejegyzes`, `mufaj`, `engedelyezve`, `felhasznalok_felhasznalok_id`) VALUES
+(1, 'title', 'text', 'Mufaj1', 'Igen', 1);
 
 --
 -- Indexek a kiírt táblákhoz
@@ -70,6 +103,12 @@ CREATE TABLE `posztok` (
 --
 ALTER TABLE `felhasznalok`
   ADD PRIMARY KEY (`felhasznalok_id`);
+
+--
+-- A tábla indexei `mufajok`
+--
+ALTER TABLE `mufajok`
+  ADD PRIMARY KEY (`mufajok_id`);
 
 --
 -- A tábla indexei `pontozas`
@@ -91,13 +130,19 @@ ALTER TABLE `posztok`
 -- AUTO_INCREMENT a táblához `felhasznalok`
 --
 ALTER TABLE `felhasznalok`
-  MODIFY `felhasznalok_id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `felhasznalok_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- AUTO_INCREMENT a táblához `mufajok`
+--
+ALTER TABLE `mufajok`
+  MODIFY `mufajok_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT a táblához `posztok`
 --
 ALTER TABLE `posztok`
-  MODIFY `posztok_id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `posztok_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
