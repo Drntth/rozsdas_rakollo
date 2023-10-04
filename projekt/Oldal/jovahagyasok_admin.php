@@ -1,6 +1,18 @@
 <?php
   require("includes/loader.inc.php");
   include("includes/session.inc.php");
+  require("includes/loader.inc.php");
+  if(isset($_POST["ok"])){
+    $igen = "Igen";
+    $enged = new Controller;
+    $enged->EngedC($_POST["id"],$igen);
+    header('location:jovahagyasok_admin.php');
+  }
+  if(isset($_POST["no"])){
+    $enged = new Controller;
+    $enged->NemEngedC($_POST["id"]);
+    header('location:jovahagyasok_admin.php');
+  }
 ?>
 <!DOCTYPE html>
 <html lang="hu">

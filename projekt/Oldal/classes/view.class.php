@@ -36,11 +36,14 @@
                 echo'
                 <div class="card">
                     <div class="card-body">
+                    <form method="POST">
                         <h6 class="card-subtitle">'.$row["username"].'</h6>
                         <h5 class="card-title">'.$row["cim"].'</h5>
                         <p class="card-text">'.$row["bejegyzes"].'</p>
+                        <input type="hidden" name="id" value="'.$row["posztok_id"].'">
                         <input type="submit" name="ok" value="OK"></input>
                         <input type="submit" name="no" value="NO"></input>
+                    </form>
                     </div>
                 </div>
                 ';

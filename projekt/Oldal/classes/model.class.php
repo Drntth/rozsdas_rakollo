@@ -68,5 +68,18 @@
             $stmt->execute();
             return $stmt;
         }
+        protected function engedM($id,$igen){
+            $sql = "UPDATE posztok SET engedelyezve =:igen WHERE posztok_id =:id";
+            $stmt=$this->connect()->prepare($sql);
+            $stmt->bindParam(":igen",$igen);
+            $stmt->bindParam(":id",$id);
+            $stmt->execute();
+        }
+        protected function nemEngedM($id){
+            $sql = "DELETE FROM posztok WHERE posztok_id =:id";
+            $stmt=$this->connect()->prepare($sql);
+            $stmt->bindParam(":id",$id);
+            $stmt->execute();
+        }
     }
 ?>
