@@ -14,20 +14,14 @@
 
   <body>
     <?php
-      include("includes/menuSzerk.inc.php");
+      include("includes/menu.inc.php");
     ?>
     <div class="container-fluid">
       <div class="row content">
-        <div class="col-3 sidenav">
+        <div class="col-12 profil">
           <?php
-            $mufajok = new View;
-            $mufajok->Mufajok();
-          ?>
-        </div>
-        <div class="col-8 main">
-          <?php
-            $posztok = new View;
-            $posztok->Posztok();
+            $profil = new View;
+            $profil->Profil();
           ?>
         </div>
       </div>

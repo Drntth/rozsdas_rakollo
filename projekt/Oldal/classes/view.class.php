@@ -79,7 +79,12 @@
             }
             echo '</table>';
         }
+        public function Profil(){
 
+        }
+        public function Uj_Bejegyzes(){
+            
+        }
     }
     
 ?>
