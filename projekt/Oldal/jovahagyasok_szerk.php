@@ -1,5 +1,6 @@
 <?php
   require("includes/loader.inc.php");
+  include("includes/session.inc.php");
 ?>
 <!DOCTYPE html>
 <html lang="hu">
