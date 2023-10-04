@@ -76,7 +76,7 @@ html, body{
         width: 100%;
         margin: 1%;
         margin-left: 0px;
-        box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.25);;
+        box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.25);
     }
     .card .card-body .card-subtitle {
         color: #000;
@@ -88,4 +88,89 @@ html, body{
     .card .card-body .card-text {
         text-align: justify;
     }   
+/*#endregion */
+
+/*#region REGISZTRACIO*/
+.regisztracio {
+    width: 100%;
+}
+.regisztracio table {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F0A30A;
+    border: 1px solid #C3750A;
+}
+.regisztracio table td{
+    padding: 10px;
+    font-size: 140%;
+}
+.regisztracio table h2{
+    font-weight: bold;
+    font-size: 180%;
+    text-align: center;
+    margin-bottom: 10%;
+}
+/*#endregion */
+
+/*#region BEJELENTKEZES*/
+.bejelentkezes {
+    width: 100%;
+}
+.bejelentkezes table {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F0A30A;
+    border: 1px solid #C3750A;
+}
+.bejelentkezes table td{
+    padding: 10px;
+    font-size: 140%;
+}
+.bejelentkezes table h2{
+    font-weight: bold;
+    font-size: 180%;
+    text-align: center;
+    margin-bottom: 10%;
+}
+/*#endregion */
+
+/*#region JOGOSULTSAGOK*/
+.jogosultsagok {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F0A30A;
+    padding: 1%;
+}
+.jogosultsagok table {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border: 1px solid #C3750A;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.25);
+}
+.jogosultsagok table th{
+    padding: 10px;
+    font-size: 120%;
+    text-align: center;
+    background-color: #FF3333;
+    color: #fff;
+}
+.jogosultsagok table td{
+    padding: 10px;
+    font-size: 120%;
+}
+.jogosultsagok table th, .jogosultsagok table td {
+    border: 1px solid #000;
+    text-align: center;
+    padding: 3%;
+}
+.jogosultsagok h2{
+    font-weight: bold;
+    font-size: 180%;
+    text-align: center;
+}
 /*#endregion */
