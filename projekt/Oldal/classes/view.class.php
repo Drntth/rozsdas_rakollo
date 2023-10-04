@@ -14,6 +14,21 @@
             echo '</ul>';
         }
 
+        public function Felhasznalok(){
+            $stmt=$this->FelhasznalokM();
+            echo '<h4>Fiókok</h4>';
+            echo '<table>';
+            echo '<tr> <th>Felhasználónév</th><th>Jogosultság</th><th></th></tr>';
+
+            while($row=$stmt->fetch())
+            {
+                echo '<tr>';
+                echo '<td>'.$row["username"].'</td><td><select><option value="'.$row["jogosultsag_nev"].'" selected>'.$row["jogosultsag_nev"].'</option><option value="Szerkesztő">Szerkesztő</option><option value="Felhasználó">Felhasználó</option></td>';
+                echo '</tr>';
+            }
+            echo '</table>';
+        }
+
         public function Posztok(){
             $stmt=$this->PosztokM();
             while($row=$stmt->fetch())

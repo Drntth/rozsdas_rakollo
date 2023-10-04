@@ -2,10 +2,10 @@
 -- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
--- Gép: 127.0.0.1
--- Létrehozás ideje: 2023. Okt 04. 20:54
--- Kiszolgáló verziója: 10.4.28-MariaDB
--- PHP verzió: 8.2.4
+-- Host: 127.0.0.1
+-- Generation Time: Oct 04, 2023 at 10:07 PM
+-- Server version: 10.4.28-MariaDB
+-- PHP Version: 8.0.28
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,13 +18,13 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Adatbázis: `rozsdas_rakollo`
+-- Database: `rozsdas_rakollo`
 --
 
 -- --------------------------------------------------------
 
 --
--- Tábla szerkezet ehhez a táblához `felhasznalok`
+-- Table structure for table `felhasznalok`
 --
 
 CREATE TABLE `felhasznalok` (
@@ -32,20 +32,42 @@ CREATE TABLE `felhasznalok` (
   `username` varchar(45) NOT NULL,
   `password` varchar(45) NOT NULL,
   `szuletesi_datum` date NOT NULL,
-  `jogosultsag` varchar(45) NOT NULL
+  `jogosultsag` char(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- A tábla adatainak kiíratása `felhasznalok`
+-- Dumping data for table `felhasznalok`
 --
 
 INSERT INTO `felhasznalok` (`felhasznalok_id`, `username`, `password`, `szuletesi_datum`, `jogosultsag`) VALUES
-(1, 'username', 'proba', '2023-10-04', 'felhasznalo');
+(1, 'username', 'proba', '2023-10-04', '1'),
+(2, 'felhasznalo', 'felhasznalo', '2023-10-19', '2'),
+(4, 'szerkeszto', 'szerkeszto', '2019-10-09', '4');
 
 -- --------------------------------------------------------
 
 --
--- Tábla szerkezet ehhez a táblához `mufajok`
+-- Table structure for table `jogosultsagok`
+--
+
+CREATE TABLE `jogosultsagok` (
+  `jogosultsag_id` int(11) NOT NULL,
+  `jogosultsag_nev` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `jogosultsagok`
+--
+
+INSERT INTO `jogosultsagok` (`jogosultsag_id`, `jogosultsag_nev`) VALUES
+(1, 'admin'),
+(2, 'felhasznalo'),
+(4, 'szerkeszto');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `mufajok`
 --
 
 CREATE TABLE `mufajok` (
@@ -54,16 +76,18 @@ CREATE TABLE `mufajok` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- A tábla adatainak kiíratása `mufajok`
+-- Dumping data for table `mufajok`
 --
 
 INSERT INTO `mufajok` (`mufajok_id`, `mufaj_neve`) VALUES
-(1, 'Mufaj1');
+(1, 'Mufaj1'),
+(2, 'mufaj 2'),
+(3, 'mufaj 3');
 
 -- --------------------------------------------------------
 
 --
--- Tábla szerkezet ehhez a táblához `pontozas`
+-- Table structure for table `pontozas`
 --
 
 CREATE TABLE `pontozas` (
@@ -72,10 +96,18 @@ CREATE TABLE `pontozas` (
   `kapott_pontszam` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+--
+-- Dumping data for table `pontozas`
+--
+
+INSERT INTO `pontozas` (`felhasznalok_felhasznalok_id`, `posztok_posztok_id`, `kapott_pontszam`) VALUES
+(2, 2, 8),
+(2, 3, 2);
+
 -- --------------------------------------------------------
 
 --
--- Tábla szerkezet ehhez a táblához `posztok`
+-- Table structure for table `posztok`
 --
 
 CREATE TABLE `posztok` (
@@ -88,61 +120,75 @@ CREATE TABLE `posztok` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- A tábla adatainak kiíratása `posztok`
+-- Dumping data for table `posztok`
 --
 
 INSERT INTO `posztok` (`posztok_id`, `cim`, `bejegyzes`, `mufaj`, `engedelyezve`, `felhasznalok_felhasznalok_id`) VALUES
-(1, 'title', 'text', 'Mufaj1', 'Igen', 1);
+(1, 'title', 'text', 'Mufaj1', 'Igen', 1),
+(2, 'vicces vicc2', 'lorem ipsuuuum', 'vicces', 'Nem', 2),
+(3, 'nem tul vicces vicc', 'According to all known laws\r\nof aviation,\r\n\r\n  \r\nthere is no way a bee\r\nshould be able to fly.\r\n\r\n  \r\nIts wings are too small to get\r\nits fat little body off the ground.\r\n\r\n  \r\nThe bee, of course, flies anyway', 'Allatos', 'Nem', 2);
 
 --
--- Indexek a kiírt táblákhoz
+-- Indexes for dumped tables
 --
 
 --
--- A tábla indexei `felhasznalok`
+-- Indexes for table `felhasznalok`
 --
 ALTER TABLE `felhasznalok`
   ADD PRIMARY KEY (`felhasznalok_id`);
 
 --
--- A tábla indexei `mufajok`
+-- Indexes for table `jogosultsagok`
+--
+ALTER TABLE `jogosultsagok`
+  ADD PRIMARY KEY (`jogosultsag_id`);
+
+--
+-- Indexes for table `mufajok`
 --
 ALTER TABLE `mufajok`
   ADD PRIMARY KEY (`mufajok_id`);
 
 --
--- A tábla indexei `pontozas`
+-- Indexes for table `pontozas`
 --
 ALTER TABLE `pontozas`
   ADD PRIMARY KEY (`felhasznalok_felhasznalok_id`,`posztok_posztok_id`);
 
 --
--- A tábla indexei `posztok`
+-- Indexes for table `posztok`
 --
 ALTER TABLE `posztok`
   ADD PRIMARY KEY (`posztok_id`);
 
 --
--- A kiírt táblák AUTO_INCREMENT értéke
+-- AUTO_INCREMENT for dumped tables
 --
 
 --
--- AUTO_INCREMENT a táblához `felhasznalok`
+-- AUTO_INCREMENT for table `felhasznalok`
 --
 ALTER TABLE `felhasznalok`
-  MODIFY `felhasznalok_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `felhasznalok_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
--- AUTO_INCREMENT a táblához `mufajok`
+-- AUTO_INCREMENT for table `jogosultsagok`
+--
+ALTER TABLE `jogosultsagok`
+  MODIFY `jogosultsag_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
+--
+-- AUTO_INCREMENT for table `mufajok`
 --
 ALTER TABLE `mufajok`
-  MODIFY `mufajok_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `mufajok_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
--- AUTO_INCREMENT a táblához `posztok`
+-- AUTO_INCREMENT for table `posztok`
 --
 ALTER TABLE `posztok`
-  MODIFY `posztok_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `posztok_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

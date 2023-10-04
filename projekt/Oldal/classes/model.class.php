@@ -14,5 +14,12 @@
             $stmt->execute();
             return $stmt;
         }
+
+        protected function FelhasznalokM(){
+            $sql="SELECT * FROM felhasznalok INNER JOIN jogosultsagok ON felhasznalok.jogosultsag = jogosultsagok.jogosultsag_id";
+            $stmt=$this->connect()->prepare($sql);
+            $stmt->execute();
+            return $stmt;
+        }
     }
 ?>
