@@ -9,7 +9,7 @@
         }
 
         protected function PosztokM(){
-            $sql="SELECT * FROM posztok INNER JOIN felhasznalok ON posztok.felhasznalok_felhasznalok_id=felhasznalok.felhasznalok_id";
+            $sql="SELECT * FROM posztok INNER JOIN felhasznalok ON posztok.felhasznalok_felhasznalok_id=felhasznalok.felhasznalok_id where engedelyezve = 'Igen'";
             $stmt=$this->connect()->prepare($sql);
             $stmt->execute();
             return $stmt;
@@ -61,6 +61,12 @@
             {
                 return false;
             }
+        }
+        protected function reqPosztokM(){
+            $sql="SELECT * FROM posztok INNER JOIN felhasznalok ON posztok.felhasznalok_felhasznalok_id=felhasznalok.felhasznalok_id where engedelyezve = 'Nem'";
+            $stmt=$this->connect()->prepare($sql);
+            $stmt->execute();
+            return $stmt;
         }
     }
 ?>
