@@ -14,7 +14,7 @@
 
   <body>
     <?php
-      include("includes/menuVissz.inc.php");
+      include("includes/menuSzerkVissz.inc.php");
     ?>
     <div class="container-fluid">
       <div class="row content">

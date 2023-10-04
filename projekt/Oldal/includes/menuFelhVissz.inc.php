@@ -10,7 +10,7 @@ echo'
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="admin.php">Vissza</a>
+                        <a class="nav-link" href="felhasznalo.php">Vissza</a>
                     </li>
                 </ul>
             </div>
