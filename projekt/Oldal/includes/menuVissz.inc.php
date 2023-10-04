@@ -10,10 +10,7 @@ echo'
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="bejelentkezes.php">Bejelentkezés</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.php">Vissza a főoldalra</a>
+                        <a class="nav-link" href="index.php">Vissza</a>
                     </li>
                 </ul>
             </div>

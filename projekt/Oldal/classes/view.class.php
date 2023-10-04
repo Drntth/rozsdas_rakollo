@@ -49,15 +49,30 @@
         }
         public function Felhasznalok(){
             $stmt=$this->FelhasznalokM();
-            echo '<h4>Fiókok</h4>';
-            echo '<table>';
-            echo '<tr> <th>Felhasználónév</th><th>Jogosultság</th><th></th></tr>';
+            echo '
+                <h2>Jogosultságok</h2>
+                <table>
+                    <tr> 
+                        <th>Felhasználónév</th>
+                        <th>Jogosultság</th>
+                        <th>  </th>
+                    </tr>';
 
             while($row=$stmt->fetch())
             {
-                echo '<tr>';
-                echo '<td>'.$row["username"].'</td><td><select><option value="'.$row["jogosultsag_nev"].'" selected>'.$row["jogosultsag_nev"].'</option><option value="Szerkesztő">Szerkesztő</option><option value="Felhasználó">Felhasználó</option></td>';
-                echo '</tr>';
+                echo '<tr>
+                        <td>'.$row["username"].'</td>
+                        <td>
+                            <select>
+                                <option value="'.$row["jogosultsag_nev"].'" selected>'.$row["jogosultsag_nev"].'</option>
+                                <option value="Szerkesztő">Szerkesztő</option>
+                                <option value="Felhasználó">Felhasználó</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type="submit" id="modositas" name="modositas" value="Módosítás">
+                        </td>
+                      </tr>';
             }
             echo '</table>';
         }
