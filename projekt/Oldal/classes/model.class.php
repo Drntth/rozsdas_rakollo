@@ -91,7 +91,7 @@
             }
             else
             {
-                return false;
+                echo '<script>alert("A megadott adatok nem jók, vagy nem létezik a felhasználói profil")</script>'; ;
             }
         }
         protected function reqPosztokM(){
