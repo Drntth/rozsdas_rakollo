@@ -35,6 +35,22 @@
             $stmt->execute($data);
             header("location:bejelentkezes.php");
         }
+        protected function Uj_BejegyzesM($data){
+            $sql="INSERT INTO posztok(cim,bejegyzes,mufaj,felhasznalok_felhasznalok_id) VALUES(?,?,?,?)";
+            $stmt=$this->connect()->prepare($sql);
+            $stmt->execute($data);
+            switch ($_SESSION["jog"]) {
+                case "1":
+                    header("location:admin.php");
+                  break;
+                case "4":
+                    header("location:szerkeszto.php");
+                  break;
+                default:
+                    header("location:felhasznalo.php");
+                  break;
+              }
+        }
 
         protected function login($username, $pwd){
             $sql="SELECT * FROM felhasznalok WHERE username=:username && password=:pwd";

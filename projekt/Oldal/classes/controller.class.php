@@ -19,6 +19,10 @@
         public function modprofC($id,$username, $pwd){
             $this->modprofM($id,$username, $pwd);        
         }
+        public function Uj_BejegyzesC($cim,$szoveg,$mufaj,$id){
+            $data = array($cim,$szoveg,$mufaj,$id);
+            $this->Uj_BejegyzesM($data);
+        }
     }
 
 ?>

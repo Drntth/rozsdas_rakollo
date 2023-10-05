@@ -1,6 +1,12 @@
 <?php
   require("includes/loader.inc.php");
   include("includes/session.inc.php");
+
+  if(isset($_POST["feltolt"])){
+        $reg = new Controller;
+        $reg->Uj_BejegyzesC($_POST["cim"],$_POST["szoveg"],$_POST["mufaj"],$_SESSION["id"]);
+    
+}
 ?>
 <!DOCTYPE html>
 <html lang="hu">

@@ -96,20 +96,18 @@
         public function Profil(){
             $stmt=$this->profilM();
             echo'
+            <div class="container-fluid">
+                <div class="row content">
                 <form method="POST">
+                    <div class="col-12 profil">
                     <table>
                         <tr>
-                            <td colspan="3"><h2>Felhasználói profil szerkesztése</h2></td>
+                            <td colspan="2"><h2>Felhasználói profil módosítása</h2></td>
                         </tr>
             ';
             while($row=$stmt->fetch())
             {
                 echo '
-                        <tr>
-                            <td rowspan="5" align="center" valign="center" class="kep">
-                                <img src="images/profilePicture.png">
-                            </td>
-                        </tr>
                         <tr>
                             <td align="right">Felhasználónév: </td>
                             <td><input type="text" id="username" name="username" value="'.$row["username"].'" required></td>
@@ -128,14 +126,25 @@
                         </tr>
                 ';
             }
-            echo'
-                    </table>
-                </form>
-            ';
         }
         
         public function Uj_Bejegyzes(){
-            
+            $stmt=$this->MufajokM();
+            echo'
+                <form method="POST">
+                <input type="text" name="cim" id="cim">
+                <input type="text" id="szoveg" name="szoveg"><select name="mufaj" id="mufaj">';
+                
+            while($row=$stmt->fetch()){
+                echo'
+                
+                    <option value="'.$row["mufajok_id"].'">'.$row["mufaj_neve"].'</option>
+                
+                ';}
+            echo '</select>
+            <input type="submit" name="feltolt" id="feltolt"
+            value="Feltöltés">
+            </form>';
         }
     }
     
