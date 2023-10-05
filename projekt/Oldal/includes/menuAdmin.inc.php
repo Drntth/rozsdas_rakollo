@@ -16,7 +16,7 @@ echo'
                         <a class="nav-link" href="jovahagyasok_admin.php">Engedélyezés</a>
                     </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="profile.php">Saját Profil</a>
+                        <a class="nav-link" href="profilAdmin.php">Saját Profil</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="kilepes.php">Kijelentkezés</a>

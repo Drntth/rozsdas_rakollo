@@ -13,7 +13,7 @@ echo'
                         <a class="nav-link" href="jovahagyasok_szerk.php">Engedélyezés</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="profil.php">Saját profil</a>
+                        <a class="nav-link" href="profilSzerk.php">Saját profil</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="kilepes.php">Kilépés</a>
