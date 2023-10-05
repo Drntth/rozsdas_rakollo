@@ -1,7 +1,6 @@
 <?php
   require("includes/loader.inc.php");
   include("includes/session.inc.php");
-  require("includes/loader.inc.php");
   if(isset($_POST["ok"])){
     $igen = "Igen";
     $enged = new Controller;
