@@ -13,6 +13,9 @@ echo'
                         <a class="nav-link" href="jovahagyasok_szerk.php">Engedélyezés</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="uj_bejegyzes.php">Új bejegyzés</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="profilSzerk.php">Saját profil</a>
                     </li>
                     <li class="nav-item">

@@ -10,6 +10,9 @@ echo'
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li class="nav-item">
+                        <a class="nav-link" href="uj_bejegyzes.php">Új bejegyzés</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="profil.php">Saját Profil</a>
                     </li>
                     <li class="nav-item">
