@@ -115,10 +115,7 @@
         public function Profil(){
             $stmt=$this->profilM();
             echo'
-            <div class="container-fluid">
-                <div class="row content">
                 <form method="POST">
-                    <div class="col-12 profil">
                     <table>
                         <tr>
                             <td colspan="2"><h2>Felhasználói profil módosítása</h2></td>
@@ -143,6 +140,8 @@
                             <input type="hidden" name="id" value="'.$row["felhasznalok_id"].'">
                             <td colspan="2" align="center"><input type="submit" id="szerk" name="szerk" value="Módosítás"></td>
                         </tr>
+                    </table>
+                </form>
                 ';
             }
         }
