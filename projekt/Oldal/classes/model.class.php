@@ -31,7 +31,7 @@
         }
 
         protected function FelhasznalokM(){
-            $sql="SELECT * FROM felhasznalok INNER JOIN jogosultsagok ON felhasznalok.jogosultsag = jogosultsagok.jogosultsag_id";
+            $sql="SELECT * FROM felhasznalok INNER JOIN jogosultsagok ON felhasznalok.jogosultsag = jogosultsagok.jogosultsag_id WHERE felhasznalok.jogosultsag <> '1'";
             $stmt=$this->connect()->prepare($sql);
             $stmt->execute();
             return $stmt;
