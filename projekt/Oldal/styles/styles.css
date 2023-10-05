@@ -47,7 +47,6 @@ html, body{
         margin-top: 2%;
     }
     .sidenav p{
-        list-style-type: none;
         background-color: #E51400;
         color: #fff;
         text-align: center;
@@ -172,5 +171,59 @@ html, body{
     font-weight: bold;
     font-size: 180%;
     text-align: center;
+}
+/*#endregion */
+
+/*#region JÓVÁHAGYÁSOK*/
+.jovahagyasok {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F0A30A;
+    padding: 1%;
+}
+.jovahagyasok h2{
+    font-weight: bold;
+    font-size: 180%;
+    text-align: center;
+}
+.jovahagyasok .card {
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(234,111,106,1) 100%); 
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.25);
+}
+.jovahagyasok .card .card-body .card-subtitle {
+    color: #000;
+    margin-bottom: 2%;
+}
+.jovahagyasok .card .card-body .card-title {
+    font-weight: bold;
+    font-size: 150%;
+    margin-left: 2%;
+}
+.jovahagyasok .card .card-body .card-text {
+    text-align: justify;
+    margin-left: 2%;
+} 
+.jovahagyasok table {
+    width: 100%;
+}
+.jovahagyasok .card .card-body table tr td input[type="submit"].ok {
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(155,202,144,1) 100%); 
+    border: 1px solid #9BCA90;
+    border-radius: 50%;
+    padding: 10%;
+}
+.jovahagyasok .card .card-body table tr td input[type="submit"].no {
+    background: #E51400;
+    border: 1px solid #C10000;
+    border-radius: 50%;
+    padding: 10%;
+    color: #fff;
 }
 /*#endregion */

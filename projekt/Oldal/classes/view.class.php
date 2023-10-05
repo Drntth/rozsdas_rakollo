@@ -28,28 +28,37 @@
                 ';
             }
         }
+
         public function ReqPosztok(){
             $stmt=$this->reqPosztokM();
-            echo'<table><th>';
+            echo ' <h2>Engedélyezés</h2> ';
             while($row=$stmt->fetch())
             {
                 echo'
                 <div class="card">
                     <div class="card-body">
-                    <form method="POST">
-                        <h6 class="card-subtitle">'.$row["username"].'</h6>
-                        <h5 class="card-title">'.$row["cim"].'</h5>
-                        <p class="card-text">'.$row["bejegyzes"].'</p>
-                        <input type="hidden" name="id" value="'.$row["posztok_id"].'">
-                        <input type="submit" name="ok" value="OK"></input>
-                        <input type="submit" name="no" value="NO"></input>
-                    </form>
+                        <form method="POST">
+                            <table>
+                                <tr width="100%">
+                                    <td width="80%">
+                                        <h6 class="card-subtitle">'.$row["username"].'</h6>
+                                        <h5 class="card-title">'.$row["cim"].'</h5>
+                                        <p class="card-text">'.$row["bejegyzes"].'</p>
+                                        <input type="hidden" name="id" value="'.$row["posztok_id"].'">
+                                    </td>
+                                    <td width="20%" align="right">
+                                        <input type="submit" name="ok" value="OK" class="ok"></input>
+                                        <input type="submit" name="no" value="NO" class="no"></input>
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
                     </div>
                 </div>
                 ';
-            }
-            
+            }           
         }
+
         public function Felhasznalok(){
             $stmt=$this->FelhasznalokM();
             echo '
@@ -79,9 +88,11 @@
             }
             echo '</table>';
         }
+
         public function Profil(){
 
         }
+        
         public function Uj_Bejegyzes(){
             
         }

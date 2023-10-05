@@ -15,7 +15,7 @@
 
   <body>
     <?php
-      include("includes/menuVissz.inc.php");
+      include("includes/menuFelhVissz.inc.php");
     ?>
     <div class="container-fluid">
       <div class="row content">
