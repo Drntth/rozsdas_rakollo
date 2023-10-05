@@ -46,18 +46,19 @@ html, body{
         text-align: center;
         margin-top: 2%;
     }
-    .sidenav p{
+    .sidenav input[type="submit"]#mufaj {
         background-color: #E51400;
         color: #fff;
         text-align: center;
-        width: 100%;
+        width: 95%;
         height: auto;
         padding: 5%;
+        margin: 2%;
         border: 1px solid #B60600;
         box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.25);
         font-size: 140%;
     }
-    .sidenav p:hover{
+    .sidenav input[type="submit"]#mufaj:hover{
         color: #000;
         font-weight: bold;
     }

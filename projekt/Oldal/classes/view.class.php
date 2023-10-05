@@ -10,7 +10,7 @@
                 echo'
                 <form method="POST">
                 <input type="hidden" id="mufajok_id" name="mufajok_id" value="'.$row["mufajok_id"].'">
-                <input type="submit" id="mufaj" name="mufaj" class="btn btn-danger" value="'.$row["mufaj_neve"].'">
+                <input type="submit" id="mufaj" name="mufaj" value="'.$row["mufaj_neve"].'">
                 </form>
                 ';
             }
