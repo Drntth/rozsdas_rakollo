@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 04, 2023 at 10:07 PM
+-- Generation Time: Oct 05, 2023 at 02:07 AM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.0.28
 
@@ -40,7 +40,7 @@ CREATE TABLE `felhasznalok` (
 --
 
 INSERT INTO `felhasznalok` (`felhasznalok_id`, `username`, `password`, `szuletesi_datum`, `jogosultsag`) VALUES
-(1, 'username', 'proba', '2023-10-04', '1'),
+(1, 'admin', 'admin', '2023-10-04', '1'),
 (2, 'felhasznalo', 'felhasznalo', '2023-10-19', '2'),
 (4, 'szerkeszto', 'szerkeszto', '2019-10-09', '4');
 
@@ -80,9 +80,10 @@ CREATE TABLE `mufajok` (
 --
 
 INSERT INTO `mufajok` (`mufajok_id`, `mufaj_neve`) VALUES
-(1, 'Mufaj1'),
-(2, 'mufaj 2'),
-(3, 'mufaj 3');
+(1, 'állatos'),
+(2, 'Móricka'),
+(3, 'Informatikus'),
+(4, 'Részeg');
 
 -- --------------------------------------------------------
 
@@ -124,9 +125,11 @@ CREATE TABLE `posztok` (
 --
 
 INSERT INTO `posztok` (`posztok_id`, `cim`, `bejegyzes`, `mufaj`, `engedelyezve`, `felhasznalok_felhasznalok_id`) VALUES
-(1, 'title', 'text', 'Mufaj1', 'Igen', 1),
-(2, 'vicces vicc2', 'lorem ipsuuuum', 'vicces', 'Nem', 2),
-(3, 'nem tul vicces vicc', 'According to all known laws\r\nof aviation,\r\n\r\n  \r\nthere is no way a bee\r\nshould be able to fly.\r\n\r\n  \r\nIts wings are too small to get\r\nits fat little body off the ground.\r\n\r\n  \r\nThe bee, of course, flies anyway', 'Allatos', 'Nem', 2);
+(1, 'Móricka Biológia órán', 'Biológia órán tanárnő kérdi Mórickát:\r\n- Móricka, mije van a libának?\r\n- Szeme!\r\n- Móricka, és még mije van a libának?\r\n- Másik szeme!\r\n- Móricka! Mivel takaróztok otthon, ha hideg van?\r\n- Párnával!\r\n- És Móricka, mi van a párnában?\r\n- Toll!\r\n- Tehát akkor Móricka, mije van a libának?\r\n- Szeme!', 'Móricka', 'Igen', 1),
+(2, 'Tehén a buszmegállóban', '- Áll egy tehén a buszmegállóban. Ha megjön a busz, hova fog felszállni?\r\n- ???\r\n- Legelőre.', 'Állatos', 'Nem', 2),
+(3, 'Orosz hálózat', '- Hogy hívják az orosz számítógép hálózatot?\r\n- Nyetwork', 'Informatikus', 'Igen', 2),
+(5, 'Egy üveg pálinka', 'Két alkoholista elmegy kempingezni. Mondja az egyik:\r\n- Én hoztam magammal egy üveg pálinkát, hogy ha véletlenül megszúrna minket egy rozsdás szög, legyen mivel fertőtleníteni. Te mit hoztál?\r\n- Két rozsdás szöget.', 'Részeg', 'Nem', 4),
+(6, 'Epe', 'Két házasember beszélget:\r\n- Hallom az anyósodat megműtötték. Hogy sikerült a műtét?\r\n- Az epekövet kivették, de az epéje sajnos a régi.', 'Anyós', 'Nem', 1);
 
 --
 -- Indexes for dumped tables
@@ -182,13 +185,13 @@ ALTER TABLE `jogosultsagok`
 -- AUTO_INCREMENT for table `mufajok`
 --
 ALTER TABLE `mufajok`
-  MODIFY `mufajok_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `mufajok_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `posztok`
 --
 ALTER TABLE `posztok`
-  MODIFY `posztok_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `posztok_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
