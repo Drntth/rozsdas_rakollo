@@ -13,6 +13,9 @@
         public function NemEngedC($id){
             $this->nemEngedM($id);
         }
+        public function JogC($id,$jog){
+            $this->JogM($id,$jog);
+        }
     }
 
 ?>

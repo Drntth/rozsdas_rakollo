@@ -81,5 +81,12 @@
             $stmt->bindParam(":id",$id);
             $stmt->execute();
         }
+        protected function JogM($id,$jog){
+            $sql = "UPDATE felhasznalok SET jogosultsag=:jog WHERE felhasznalok_id=:id";
+            $stmt=$this->connect()->prepare($sql);
+            $stmt->bindParam(":jog",$jog);
+            $stmt->bindParam(":id",$id);
+            $stmt->execute();
+        }
     }
 ?>

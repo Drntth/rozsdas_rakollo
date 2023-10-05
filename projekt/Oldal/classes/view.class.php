@@ -72,19 +72,23 @@
 
             while($row=$stmt->fetch())
             {
-                echo '<tr>
+                echo '
+                <form method="POST">
+                <tr>
                         <td>'.$row["username"].'</td>
                         <td>
-                            <select>
+                            <select name="jog">
                                 <option value="'.$row["jogosultsag_nev"].'" selected>'.$row["jogosultsag_nev"].'</option>
-                                <option value="Szerkesztő">Szerkesztő</option>
-                                <option value="Felhasználó">Felhasználó</option>
+                                <option value="4">Szerkesztő</option>
+                                <option value="2">Felhasználó</option>
                             </select>
                         </td>
                         <td>
+                            <input type="hidden" name="id" value="'.$row["felhasznalok_id"].'">
                             <input type="submit" id="modositas" name="modositas" value="Módosítás">
                         </td>
-                      </tr>';
+                      </tr>
+                </form>';
             }
             echo '</table>';
         }

@@ -1,6 +1,12 @@
 <?php
     require("includes/loader.inc.php");
     include("includes/session.inc.php");
+
+    if(isset($_POST["modositas"])){
+      $jog = new Controller;
+      $jog->JogC($_POST["id"],$_POST["jog"]);
+      header('location:jogosultsagok.php');
+    }
 ?>
 <!DOCTYPE html>
 <html lang="hu">
