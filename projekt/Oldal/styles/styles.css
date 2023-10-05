@@ -89,7 +89,7 @@ html, body{
     }   
 /*#endregion */
 
-/*#region REGISZTRACIO*/
+/*#region REGISZTRÁCIÓ*/
 .regisztracio {
     width: 100%;
 }
@@ -112,7 +112,7 @@ html, body{
 }
 /*#endregion */
 
-/*#region BEJELENTKEZES*/
+/*#region BEJELENTKEZÉS*/
 .bejelentkezes {
     width: 100%;
 }
@@ -263,6 +263,36 @@ html, body{
 .profil table tr td input[type="submit"]#szerk {
     background-color: #FAD7AC;
     border: 1px solid #D5A56A;
+    font-weight: bold;
+}
+/*#endregion */
+
+/*#region ÚJ_BEJEGYZÉS*/
+.uj_bejegyzes{
+    width: 100%;
+}
+.uj_bejegyzes table {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F0A30A;
+    border: 1px solid #C3750A;
+    text-align: center;
+}
+.uj_bejegyzes table td{
+    padding: 2%;
+}
+.uj_bejegyzes table h2{
+    font-weight: bold;
+    font-size: 180%;
+    text-align: center;
+    margin-bottom: 10%;
+    margin: 3% auto 5% auto;
+}
+.uj_bejegyzes table tr td input[type="submit"]#feltolt {
+    background-color: #FAD7AC;
+    border: 1px solid #D5A56A;
+    padding: 2% 5% 2% 5%;
     font-weight: bold;
 }
 /*#endregion */
