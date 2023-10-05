@@ -135,7 +135,7 @@ html, body{
 }
 /*#endregion */
 
-/*#region JOGOSULTSAGOK*/
+/*#region JOGOSULTSÁGOK*/
 .jogosultsagok {
     width: 80%;
     margin-left: auto;
@@ -144,7 +144,7 @@ html, body{
     padding: 1%;
 }
 .jogosultsagok table {
-    width: 65%;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
     background-color: #fff;
@@ -171,6 +171,13 @@ html, body{
     font-weight: bold;
     font-size: 180%;
     text-align: center;
+}
+.jogosultsagok table tr td input[type="submit"]#modositas {
+    background-color: #FAD7AC;
+    border: 1px solid #D5A56A;
+    border-radius: 5px;
+    padding: 5% 20% 5% 20%;
+    font-weight: bold;
 }
 /*#endregion */
 
