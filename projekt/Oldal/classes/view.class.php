@@ -96,18 +96,20 @@
         public function Profil(){
             $stmt=$this->profilM();
             echo'
-            <div class="container-fluid">
-                <div class="row content">
                 <form method="POST">
-                    <div class="col-12 regisztracio">
                     <table>
                         <tr>
-                            <td colspan="2"><h2>Felhasználói profil módosítása</h2></td>
+                            <td colspan="3"><h2>Felhasználói profil szerkesztése</h2></td>
                         </tr>
             ';
             while($row=$stmt->fetch())
             {
                 echo '
+                        <tr>
+                            <td rowspan="5" align="center" valign="center" class="kep">
+                                <img src="images/profilePicture.png">
+                            </td>
+                        </tr>
                         <tr>
                             <td align="right">Felhasználónév: </td>
                             <td><input type="text" id="username" name="username" value="'.$row["username"].'" required></td>
@@ -126,6 +128,10 @@
                         </tr>
                 ';
             }
+            echo'
+                    </table>
+                </form>
+            ';
         }
         
         public function Uj_Bejegyzes(){

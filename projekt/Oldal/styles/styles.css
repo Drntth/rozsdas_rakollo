@@ -234,3 +234,35 @@ html, body{
     color: #fff;
 }
 /*#endregion */
+
+/*#region PROFIL*/
+.profil {
+    width: 100%;
+}
+.profil table {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F0A30A;
+    border: 1px solid #C3750A;
+}
+.profil table td{
+    padding: 10px;
+    font-size: 140%;
+}
+.profil table h2{
+    font-weight: bold;
+    font-size: 180%;
+    text-align: center;
+}
+.profil img{
+    width: 120%;
+    padding-right: 10%;
+    border-right: 3px dotted #000;
+}
+.profil table tr td input[type="submit"]#szerk {
+    background-color: #FAD7AC;
+    border: 1px solid #D5A56A;
+    font-weight: bold;
+}
+/*#endregion */
