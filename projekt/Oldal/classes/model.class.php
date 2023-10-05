@@ -8,6 +8,14 @@
             return $stmt;
         }
 
+        protected function profilM(){
+            $sql="SELECT * FROM felhasznalok WHERE felhasznalok_id=:id";
+            $stmt=$this->connect()->prepare($sql);
+            $stmt->bindParam(":id",$_SESSION["id"]);
+            $stmt->execute();
+            return $stmt;
+        }
+
         protected function PosztokM(){
             $sql="SELECT * FROM posztok INNER JOIN felhasznalok ON posztok.felhasznalok_felhasznalok_id=felhasznalok.felhasznalok_id where engedelyezve = 'Igen'";
             $stmt=$this->connect()->prepare($sql);
@@ -43,6 +51,7 @@
                 while($row=$stmt->fetch())
                 {
                     $_SESSION["nev"] = $row["username"];
+                    $_SESSION["id"] = $row["felhasznalok_id"];
                     $_SESSION["jog"] = $row["jogosultsag"];
                     switch ($_SESSION["jog"]) {
                         case "1":
@@ -85,6 +94,14 @@
             $sql = "UPDATE felhasznalok SET jogosultsag=:jog WHERE felhasznalok_id=:id";
             $stmt=$this->connect()->prepare($sql);
             $stmt->bindParam(":jog",$jog);
+            $stmt->bindParam(":id",$id);
+            $stmt->execute();
+        }
+        protected function modprofM($id,$username, $pwd){
+            $sql = "UPDATE felhasznalok SET username=:username, password=:pass WHERE felhasznalok_id=:id";
+            $stmt=$this->connect()->prepare($sql);
+            $stmt->bindParam(":username",$username);
+            $stmt->bindParam(":pass",$pwd);
             $stmt->bindParam(":id",$id);
             $stmt->execute();
         }

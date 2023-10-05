@@ -16,6 +16,9 @@
         public function JogC($id,$jog){
             $this->JogM($id,$jog);
         }
+        public function modprofC($id,$username, $pwd){
+            $this->modprofM($id,$username, $pwd);        
+        }
     }
 
 ?>

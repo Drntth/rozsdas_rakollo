@@ -1,6 +1,17 @@
 <?php
   require("includes/loader.inc.php");
   include("includes/session.inc.php");
+  if(isset($_POST["szerk"])){
+    if($_POST["pass"] <> $_POST["pass_re"]){
+      echo '<script>alert("A jelszó nem egyezik")</script>'; 
+    }
+    else{
+      $modprof = new Controller;
+      $modprof->modprofC($_POST["id"],$_POST["username"],$_POST["pass"]);
+      header('location:szerkeszto.php');
+    }
+
+  }
 ?>
 <!DOCTYPE html>
 <html lang="hu">

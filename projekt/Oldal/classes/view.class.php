@@ -94,7 +94,38 @@
         }
 
         public function Profil(){
-
+            $stmt=$this->profilM();
+            echo'
+            <div class="container-fluid">
+                <div class="row content">
+                <form method="POST">
+                    <div class="col-12 regisztracio">
+                    <table>
+                        <tr>
+                            <td colspan="2"><h2>Felhasználói profil módosítása</h2></td>
+                        </tr>
+            ';
+            while($row=$stmt->fetch())
+            {
+                echo '
+                        <tr>
+                            <td align="right">Felhasználónév: </td>
+                            <td><input type="text" id="username" name="username" value="'.$row["username"].'" required></td>
+                        </tr>
+                        <tr>
+                            <td align="right">Jelszó: </td>
+                            <td><input type="password" id="pass" name="pass" value="'.$row["password"].'" required></td>
+                        </tr>
+                        <tr>
+                            <td align="right">Jelszó mégegyszer: </td>
+                            <td><input type="password" id="pass_re" name="pass_re" value="'.$row["password"].'" required></td>
+                        </tr>
+                        <tr>
+                            <input type="hidden" name="id" value="'.$row["felhasznalok_id"].'">
+                            <td colspan="2" align="center"><input type="submit" id="szerk" name="szerk" value="Módosítás"></td>
+                        </tr>
+                ';
+            }
         }
         
         public function Uj_Bejegyzes(){
