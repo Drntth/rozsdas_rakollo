@@ -8,7 +8,26 @@
             while($row=$stmt->fetch())
             {
                 echo'
-                <p>'.$row["mufaj_neve"].'</p>
+                <form method="POST">
+                <input type="hidden" id="mufajok_id" name="mufajok_id" value="'.$row["mufajok_id"].'">
+                <input type="submit" id="mufaj" name="mufaj" class="btn btn-danger" value="'.$row["mufaj_neve"].'">
+                </form>
+                ';
+            }
+        }
+
+        public function MufajSzerint($mufaj){
+            $stmt=$this->MufajSzerintM($mufaj);
+            while($row=$stmt->fetch())
+            {
+                echo'
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-subtitle">'.$row["username"].'</h6>
+                        <h5 class="card-title">'.$row["cim"].'</h5>
+                        <p class="card-text">'.$row["bejegyzes"].'</p>
+                    </div>
+                </div>
                 ';
             }
         }
@@ -132,35 +151,19 @@
             $stmt=$this->MufajokM();
             echo'
                 <form method="POST">
-                    <table>
-                        <tr>
-                            <td colspan="2"><h2>Új bejegyzés írása</h2></td>
-                        </tr>
-                        <tr>
-                            <td align="right">Cím:</td>
-                            <td><input type="text" name="cim" id="cim" placeholder="cím" style="width: 100%;"></td>
-                        </tr>
-                        <tr>
-                            <td align="right">Tartalom:</td>
-                            <td><input type="text" id="szoveg" name="szoveg" rows="8" cols="10" style="width: 100%; height: 25vh;"></td>
-                        <tr>    
-                            <td align="right">Műfaj:</td>
-                            <td>
-                                <select name="mufaj" id="mufaj">
-                        ';
+                <input type="text" name="cim" id="cim">
+                <input type="text" id="szoveg" name="szoveg"><select name="mufaj" id="mufaj">';
                 
-                        while($row=$stmt->fetch()){
-                            echo'
-                                <option value="'.$row["mufajok_id"].'">'.$row["mufaj_neve"].'</option>
-                            ';}
-            echo '              </select>
-                            </td>    
-                        </tr>
-                        <tr>
-                            <td colspan="2"><input type="submit" name="feltolt" id="feltolt" value="Elküld"></td>
-                        </tr>
-                    </table>
-                </form>';
+            while($row=$stmt->fetch()){
+                echo'
+                
+                    <option value="'.$row["mufajok_id"].'">'.$row["mufaj_neve"].'</option>
+                
+                ';}
+            echo '</select>
+            <input type="submit" name="feltolt" id="feltolt"
+            value="Feltöltés">
+            </form>';
         }
     }
     

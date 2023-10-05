@@ -26,8 +26,14 @@
         </div>
         <div class="col-8 main">
           <?php
-            $posztok = new View;
-            $posztok->Posztok();
+            if(isset($_POST["mufaj"])){
+              $bejegyzesek = new View;
+              $bejegyzesek->MufajSzerint($_POST["mufaj"]);
+            }
+            else{
+              $posztok = new View;
+              $posztok->Posztok();
+            }
           ?>
         </div>
       </div>

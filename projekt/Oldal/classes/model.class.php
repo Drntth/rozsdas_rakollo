@@ -23,6 +23,13 @@
             return $stmt;
         }
 
+        protected function MufajSzerintM($mufaj){
+            $sql="SELECT * FROM posztok JOIN felhasznalok ON posztok.felhasznalok_felhasznalok_id=felhasznalok.felhasznalok_id JOIN mufajok ON posztok.mufaj=mufajok.mufajok_id where engedelyezve = 'Igen' AND mufajok.mufaj_neve = '$mufaj'";
+            $stmt=$this->connect()->prepare($sql);
+            $stmt->execute();
+            return $stmt;
+        }
+
         protected function FelhasznalokM(){
             $sql="SELECT * FROM felhasznalok INNER JOIN jogosultsagok ON felhasznalok.jogosultsag = jogosultsagok.jogosultsag_id";
             $stmt=$this->connect()->prepare($sql);
