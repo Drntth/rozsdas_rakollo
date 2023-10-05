@@ -26,7 +26,7 @@
 
   <body>
     <?php
-      include("includes/menuAdmin.inc.php");
+      include("includes/menuVissz.inc.php");
     ?>
     <div class="container-fluid">
       <div class="row content">
