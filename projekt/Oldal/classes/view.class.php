@@ -97,7 +97,7 @@
                         <td>'.$row["username"].'</td>
                         <td>
                             <select name="jog">
-                                <option value="'.$row["jogosultsag_nev"].'" selected>'.$row["jogosultsag_nev"].'</option>
+                                <option value="'.$row["jogosultsag_id"].'" selected>'.$row["jogosultsag_nev"].'</option>
                                 <option value="4">Szerkesztő</option>
                                 <option value="2">Felhasználó</option>
                             </select>
