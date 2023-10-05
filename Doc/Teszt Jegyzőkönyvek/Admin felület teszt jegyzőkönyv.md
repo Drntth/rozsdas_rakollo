@@ -8,21 +8,28 @@ Talált hibák száma:  6
 ## Admin funkciók tesztelése
 
 ### Jogosultságok kezelése
-+ Blackbox tesztelés folyamatával olyan hibát találtunk, hogy amikor egy bizonyos jogosultságot rendeltünk egy fiókhoz, akkor a fiók eltünt a listából. (Javítva)
++ Beléptem az admin fiókba és rányomtam a jogosultságok oldalra.
+
++ az oldalon az összes felhasználó megjelent, de ha valakinek szerkesztő rangot adtunk, akkor a fiók eltűnt a listából. (Javítva)
+
 + A felületen megjelent az Admin rang, mint az adható rangok egyike, aminek nem kellene megjelennie. (Javítva)
+
 + Jogosultság kezelésnél minden felhasználónak meg tudjuk adni a 'rangját', minden a tervezettként működik.
 
 ### Bejegyzések engedélyezése
-+ Bejegyzések engedélyezésénél nem a tervezett ablakra dobott vissza, például az admint a felhasználó felület főoldalára dobta ki, miután engedélyezett egy posztot. (Javítva)
++ Bejegyzések engedélyezésénél, az 'OK' és a 'NO' gombra kattintva teszteltem a válaszokat.
 
-+ A nem engedélyezett posztok nem tűntek el, ha az elutasítás gombra nyomtunk. (Javítva)
++ A 'NO' gomb nem a tervezett ablakra dobott vissza, például az admint a felhasználó felület főoldalára dobta ki, miután engedélyezett egy posztot. (Javítva)
+
++ A javítás után, a nem engedélyezett posztok nem tűntek el, ha az elutasítás gombra nyomtunk. (Javítva)
 
 + Az engedélyezett üzenetek kikerültek a főoldalra, amég az elutasítottak törlődtek a rendszerből.
 
 ### Új bejegyzés létrehozása
-+ Az elküldött üzenetek nem jelentek meg az engedélyezendő posztok között. (Javítva)
++ Az új bejegyzésekre kattintva, a megírt üzenetek nem jelentek meg sehol. (Javítva)
 
 + A bejegyzés akkor is létrejön, ha nincs benne semmi tartalom.
+
 
 ### Saját profil módosítása
 + A profil jelszava gond nélkül megváltozott, a felhasználónévvel együtt.
